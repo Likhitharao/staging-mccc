@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Absolute_telephone</name>
+   <tag></tag>
+   <elementGuidId>a368b595-85a5-4b7f-ad2f-d155fb54b613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[13]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[13]/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

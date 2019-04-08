@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="URL Verification" time="136" tests="12" failures="0" errors="0">
+   <testsuite name="URL Verification" tests="12" failures="0" errors="0" time="136" timestamp="2019-04-08 16:58:37" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/URL Verification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\URL Verification\\20190408_165833"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\URL Verification\\20190408_165833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="1125a0a3058376307209c7985709a745"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/URL Verifications/Buynow country URL" classname="Test Cases/URL Verifications/Buynow country URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:58:37 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow country URL: Test Cases/URL Verifications/Buynow country URL
+
+2019-04-08 16:58:38 - [TEST_STEP][PASSED] - comment("Verifying Country Buynow URL Navigation"): Verifying Country Buynow URL Navigation
+
+2019-04-08 16:58:38 - [MESSAGE][INFO] - Verifying Country Buynow URL Navigation
+
+2019-04-08 16:58:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:58:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:58:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-08 16:59:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:02 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:05 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow Country URL/Country BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow Country URL/Country BUY NOW button' successfully
+
+2019-04-08 16:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow Country URL/Country BUY NOW button' successfully
+
+2019-04-08 16:59:06 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow Country URL/Country BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow Country URL/Country BUY NOW button' is clicked on
+
+2019-04-08 16:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow Country URL/Country BUY NOW button' is clicked on
+
+2019-04-08 16:59:07 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/7/COUNTRY/2": Current window's url is: 'http://192.168.0.28:90/detail/7/COUNTRY/2'
+
+2019-04-08 16:59:07 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/7/COUNTRY/2']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow disabled full URL" classname="Test Cases/URL Verifications/Buynow disabled full URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:07 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow disabled full URL: Test Cases/URL Verifications/Buynow disabled full URL
+
+2019-04-08 16:59:07 - [TEST_STEP][PASSED] - comment("Verifying Disabled buynow URL navigation"): Verifying Disabled buynow URL navigation
+
+2019-04-08 16:59:07 - [MESSAGE][INFO] - Verifying Disabled buynow URL navigation
+
+2019-04-08 16:59:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:12 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:23 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow disabled URL/Disabled BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow disabled URL/Disabled BUY NOW button' successfully
+
+2019-04-08 16:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow disabled URL/Disabled BUY NOW button' successfully
+
+2019-04-08 16:59:23 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow disabled URL/Disabled BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow disabled URL/Disabled BUY NOW button' is clicked on
+
+2019-04-08 16:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow disabled URL/Disabled BUY NOW button' is clicked on
+
+2019-04-08 16:59:24 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/10/DISABLED_FULL/9": Current window's url is: 'http://192.168.0.28:90/detail/10/DISABLED_FULL/9'
+
+2019-04-08 16:59:24 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/10/DISABLED_FULL/9']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow for disabled country URL" classname="Test Cases/URL Verifications/Buynow for disabled country URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:24 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow for disabled country URL: Test Cases/URL Verifications/Buynow for disabled country URL
+
+2019-04-08 16:59:24 - [TEST_STEP][PASSED] - comment("Verifying disabled country URL navigation"): Verifying disabled country URL navigation
+
+2019-04-08 16:59:24 - [MESSAGE][INFO] - Verifying disabled country URL navigation
+
+2019-04-08 16:59:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:59:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:28 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:32 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-08 16:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-08 16:59:32 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-08 16:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-08 16:59:33 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10": Current window's url is: 'http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10'
+
+2019-04-08 16:59:33 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow Full URL" classname="Test Cases/URL Verifications/Buynow Full URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:33 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow Full URL: Test Cases/URL Verifications/Buynow Full URL
+
+2019-04-08 16:59:33 - [TEST_STEP][PASSED] - comment("Verfying Buynow URL NAvigation for Full"): Verfying Buynow URL NAvigation for Full
+
+2019-04-08 16:59:33 - [MESSAGE][INFO] - Verfying Buynow URL NAvigation for Full
+
+2019-04-08 16:59:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:37 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:40 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow Full URL/Full BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' successfully
+
+2019-04-08 16:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' successfully
+
+2019-04-08 16:59:40 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow Full URL/Full BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' is clicked on
+
+2019-04-08 16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' is clicked on
+
+2019-04-08 16:59:40 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/6/FULL/1": Current window's url is: 'http://192.168.0.28:90/detail/6/FULL/1'
+
+2019-04-08 16:59:40 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/6/FULL/1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow junior URL" classname="Test Cases/URL Verifications/Buynow junior URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:40 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow junior URL: Test Cases/URL Verifications/Buynow junior URL
+
+2019-04-08 16:59:40 - [TEST_STEP][PASSED] - comment("Verfying junior URL navigation"): Verfying junior URL navigation
+
+2019-04-08 16:59:40 - [MESSAGE][INFO] - Verfying junior URL navigation
+
+2019-04-08 16:59:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:59:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:45 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:49 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow junior URL/junior BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow junior URL/junior BUY NOW button' successfully
+
+2019-04-08 16:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow junior URL/junior BUY NOW button' successfully
+
+2019-04-08 16:59:49 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow junior URL/junior BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow junior URL/junior BUY NOW button' is clicked on
+
+2019-04-08 16:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow junior URL/junior BUY NOW button' is clicked on
+
+2019-04-08 16:59:50 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/13/JUNIOR/12": Current window's url is: 'http://192.168.0.28:90/detail/13/JUNIOR/12'
+
+2019-04-08 16:59:50 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/13/JUNIOR/12']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow Premium URL" classname="Test Cases/URL Verifications/Buynow Premium URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:50 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow Premium URL: Test Cases/URL Verifications/Buynow Premium URL
+
+2019-04-08 16:59:50 - [TEST_STEP][PASSED] - comment("Verifying Premium Buynow URL Navigation"): Verifying Premium Buynow URL Navigation
+
+2019-04-08 16:59:50 - [MESSAGE][INFO] - Verifying Premium Buynow URL Navigation
+
+2019-04-08 16:59:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 16:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 16:59:54 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:57 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 16:59:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button"), 0): Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button' successfully
+
+2019-04-08 16:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 16:59:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button' successfully
+
+2019-04-08 16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button' is clicked on
+
+2019-04-08 16:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button' is clicked on
+
+2019-04-08 16:59:58 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/5/PREMIER/0": Current window's url is: 'http://192.168.0.28:90/detail/5/PREMIER/0'
+
+2019-04-08 16:59:58 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/5/PREMIER/0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow Teen URL" classname="Test Cases/URL Verifications/Buynow Teen URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 16:59:58 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow Teen URL: Test Cases/URL Verifications/Buynow Teen URL
+
+2019-04-08 16:59:58 - [TEST_STEP][PASSED] - comment("Verifying Teen URL navigation"): Verifying Teen URL navigation
+
+2019-04-08 16:59:58 - [MESSAGE][INFO] - Verifying Teen URL navigation
+
+2019-04-08 16:59:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 16:59:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 16:59:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:03 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:05 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow Teen URL/Teen BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow Teen URL/Teen BUY NOW button' successfully
+
+2019-04-08 17:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 17:00:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow Teen URL/Teen BUY NOW button' successfully
+
+2019-04-08 17:00:05 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow Teen URL/Teen BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow Teen URL/Teen BUY NOW button' is clicked on
+
+2019-04-08 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow Teen URL/Teen BUY NOW button' is clicked on
+
+2019-04-08 17:00:06 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/12/TEEN/11": Current window's url is: 'http://192.168.0.28:90/detail/12/TEEN/11'
+
+2019-04-08 17:00:06 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/12/TEEN/11']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow URL for Premium plus" classname="Test Cases/URL Verifications/Buynow URL for Premium plus" status="PASSED">
+         <system-out><![CDATA[2019-04-08 17:00:06 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow URL for Premium plus: Test Cases/URL Verifications/Buynow URL for Premium plus
+
+2019-04-08 17:00:06 - [TEST_STEP][PASSED] - comment("Verifying Premium plus URL navigation"): Verifying Premium plus URL navigation
+
+2019-04-08 17:00:06 - [MESSAGE][INFO] - Verifying Premium plus URL navigation
+
+2019-04-08 17:00:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 17:00:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 17:00:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:11 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:13 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow premium plus URL/premium plus BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow premium plus URL/premium plus BUY NOW button' successfully
+
+2019-04-08 17:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 17:00:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow premium plus URL/premium plus BUY NOW button' successfully
+
+2019-04-08 17:00:14 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow premium plus URL/premium plus BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow premium plus URL/premium plus BUY NOW button' is clicked on
+
+2019-04-08 17:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow premium plus URL/premium plus BUY NOW button' is clicked on
+
+2019-04-08 17:00:15 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/9/PREMIER_PLUS/8": Current window's url is: 'http://192.168.0.28:90/detail/9/PREMIER_PLUS/8'
+
+2019-04-08 17:00:15 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/9/PREMIER_PLUS/8']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Buynow Young adult URL" classname="Test Cases/URL Verifications/Buynow Young adult URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 17:00:15 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Buynow Young adult URL: Test Cases/URL Verifications/Buynow Young adult URL
+
+2019-04-08 17:00:15 - [TEST_STEP][PASSED] - comment("Verifying Young adult URL navigation"): Verifying Young adult URL navigation
+
+2019-04-08 17:00:15 - [MESSAGE][INFO] - Verifying Young adult URL navigation
+
+2019-04-08 17:00:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 17:00:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 17:00:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:21 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:28 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow young adult URL/Young adult BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow young adult URL/Young adult BUY NOW button' successfully
+
+2019-04-08 17:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 17:00:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow young adult URL/Young adult BUY NOW button' successfully
+
+2019-04-08 17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow young adult URL/Young adult BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow young adult URL/Young adult BUY NOW button' is clicked on
+
+2019-04-08 17:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow young adult URL/Young adult BUY NOW button' is clicked on
+
+2019-04-08 17:00:29 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3": Current window's url is: 'http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3'
+
+2019-04-08 17:00:29 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/Cart URL verification" classname="Test Cases/URL Verifications/Cart URL verification" status="PASSED">
+         <system-out><![CDATA[2019-04-08 17:00:29 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/Cart URL verification: Test Cases/URL Verifications/Cart URL verification
+
+2019-04-08 17:00:29 - [TEST_STEP][PASSED] - comment("Verifying Cart button Navigation"): Verifying Cart button Navigation
+
+2019-04-08 17:00:29 - [MESSAGE][INFO] - Verifying Cart button Navigation
+
+2019-04-08 17:00:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 17:00:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 17:00:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:34 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:36 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Cart URL verification/Page_Middlesex Cricket Memberships/cart button")): Object: 'Object Repository/URL Verifications/Cart URL verification/Page_Middlesex Cricket Memberships/cart button' is clicked on
+
+2019-04-08 17:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Cart URL verification/Page_Middlesex Cricket Memberships/cart button' is clicked on
+
+2019-04-08 17:00:38 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/basket": Current window's url is: 'http://192.168.0.28:90/basket'
+
+2019-04-08 17:00:38 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/basket']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/MCCC url verification" classname="Test Cases/URL Verifications/MCCC url verification" status="PASSED">
+         <system-out><![CDATA[2019-04-08 17:00:38 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/MCCC url verification: Test Cases/URL Verifications/MCCC url verification
+
+2019-04-08 17:00:38 - [TEST_STEP][PASSED] - comment("MCCC URL Verification"): MCCC URL Verification
+
+2019-04-08 17:00:38 - [MESSAGE][INFO] - MCCC URL Verification
+
+2019-04-08 17:00:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 17:00:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 17:00:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:42 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:45 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:45 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/list": Current window's url is: 'http://192.168.0.28:90/list'
+
+2019-04-08 17:00:45 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/list']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL Verifications/membership comparision URL" classname="Test Cases/URL Verifications/membership comparision URL" status="PASSED">
+         <system-out><![CDATA[2019-04-08 17:00:45 - [TEST_CASE][PASSED] - Test Cases/URL Verifications/membership comparision URL: Test Cases/URL Verifications/membership comparision URL
+
+2019-04-08 17:00:45 - [TEST_STEP][PASSED] - comment("Verifying Membership comparision URL navigation"): Verifying Membership comparision URL navigation
+
+2019-04-08 17:00:45 - [MESSAGE][INFO] - Verifying Membership comparision URL navigation
+
+2019-04-08 17:00:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 17:00:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-08 17:00:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 17:00:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 17:00:49 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:51 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 17:00:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow Full URL/Full BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' successfully
+
+2019-04-08 17:00:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 17:00:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' successfully
+
+2019-04-08 17:00:51 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow Full URL/Full BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' is clicked on
+
+2019-04-08 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow Full URL/Full BUY NOW button' is clicked on
+
+2019-04-08 17:00:52 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Membership comparison URL/Membership Comparison button")): Object: 'Object Repository/URL Verifications/Membership comparison URL/Membership Comparison button' is clicked on
+
+2019-04-08 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Membership comparison URL/Membership Comparison button' is clicked on
+
+2019-04-08 17:00:52 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/list": Current window's url is: 'http://192.168.0.28:90/list'
+
+2019-04-08 17:00:52 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/list']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-08 16:58:37 - [TEST_SUITE][PASSED] - URL Verification: Test Cases/URL Verifications/membership comparision URL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

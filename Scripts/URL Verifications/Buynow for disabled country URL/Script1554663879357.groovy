@@ -19,7 +19,7 @@ WebUI.comment('Verifying disabled country URL navigation')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Scroll upto disabled country buynow button'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button'), 0)
@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('URL Verifications/Buynow disabled country 
 WebUI.click(findTestObject('URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button'))
 
 'Verifying actual url with expected url'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/8/DISABLED_COUNTRY/10'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10'
 

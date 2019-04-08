@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+URL Verification,Chrome 73.0.3683.86,,2019-04-08 16:58:37,2019-04-08 17:00:53,2m - 16.098s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow country URL,Chrome 73.0.3683.86,,2019-04-08 16:58:37,2019-04-08 16:59:07,29.717s,PASSED
+"comment(""Verifying Country Buynow URL Navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:58:38,2019-04-08 16:58:38,0.146s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 16:58:38,2019-04-08 16:59:02,23.916s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigating to MCCC URL,2019-04-08 16:59:02,2019-04-08 16:59:05,3.686s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow Country URL/Country BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto Country buynow button,2019-04-08 16:59:05,2019-04-08 16:59:06,0.340s,PASSED
+"click(findTestObject(""URL Verifications/Buynow Country URL/Country BUY NOW button""))",Chrome 73.0.3683.86,Click Country buynow button,2019-04-08 16:59:06,2019-04-08 16:59:07,1.230s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/7/COUNTRY/2""",Chrome 73.0.3683.86,Verifying actual URL with expected URL,2019-04-08 16:59:07,2019-04-08 16:59:07,0.029s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow disabled full URL,Chrome 73.0.3683.86,,2019-04-08 16:59:07,2019-04-08 16:59:24,17.014s,PASSED
+"comment(""Verifying Disabled buynow URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:59:07,2019-04-08 16:59:07,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 16:59:07,2019-04-08 16:59:12,4.382s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 16:59:12,2019-04-08 16:59:23,11.639s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow disabled URL/Disabled BUY NOW button""), 0)",Chrome 73.0.3683.86,scroll upto disabled buynow url,2019-04-08 16:59:23,2019-04-08 16:59:23,0.055s,PASSED
+"click(findTestObject(""URL Verifications/Buynow disabled URL/Disabled BUY NOW button""))",Chrome 73.0.3683.86,Click on disabled buynow url,2019-04-08 16:59:23,2019-04-08 16:59:24,0.702s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/10/DISABLED_FULL/9""",Chrome 73.0.3683.86,Verifying actual url with expected url,2019-04-08 16:59:24,2019-04-08 16:59:24,0.013s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow for disabled country URL,Chrome 73.0.3683.86,,2019-04-08 16:59:24,2019-04-08 16:59:33,8.652s,PASSED
+"comment(""Verifying disabled country URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:59:24,2019-04-08 16:59:24,0.004s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 16:59:24,2019-04-08 16:59:28,3.946s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 16:59:28,2019-04-08 16:59:32,3.791s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto disabled country buynow button,2019-04-08 16:59:32,2019-04-08 16:59:32,0.106s,PASSED
+"click(findTestObject(""URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button""))",Chrome 73.0.3683.86,"Click on disabled country buynow button
+",2019-04-08 16:59:32,2019-04-08 16:59:33,0.544s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10""",Chrome 73.0.3683.86,Verifying actual url with expected url,2019-04-08 16:59:33,2019-04-08 16:59:33,0.013s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow Full URL,Chrome 73.0.3683.86,,2019-04-08 16:59:33,2019-04-08 16:59:40,7.423s,PASSED
+"comment(""Verfying Buynow URL NAvigation for Full"")",Chrome 73.0.3683.86,,2019-04-08 16:59:33,2019-04-08 16:59:33,0.008s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-08 16:59:33,2019-04-08 16:59:37,3.926s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 16:59:37,2019-04-08 16:59:40,2.628s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow Full URL/Full BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto Full buynow button,2019-04-08 16:59:40,2019-04-08 16:59:40,0.070s,PASSED
+"click(findTestObject(""URL Verifications/Buynow Full URL/Full BUY NOW button""))",Chrome 73.0.3683.86,Click on Full buynow button,2019-04-08 16:59:40,2019-04-08 16:59:40,0.570s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/6/FULL/1""",Chrome 73.0.3683.86,Verifying Actual URL with expected URL,2019-04-08 16:59:40,2019-04-08 16:59:40,0.040s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow junior URL,Chrome 73.0.3683.86,,2019-04-08 16:59:40,2019-04-08 16:59:50,9.576s,PASSED
+"comment(""Verfying junior URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:59:40,2019-04-08 16:59:40,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,opening browser,2019-04-08 16:59:40,2019-04-08 16:59:45,4.211s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 16:59:45,2019-04-08 16:59:49,4.351s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow junior URL/junior BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto junior buynow button,2019-04-08 16:59:49,2019-04-08 16:59:49,0.092s,PASSED
+"click(findTestObject(""URL Verifications/Buynow junior URL/junior BUY NOW button""))",Chrome 73.0.3683.86,click on junior buynow button,2019-04-08 16:59:49,2019-04-08 16:59:50,0.721s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/13/JUNIOR/12""",Chrome 73.0.3683.86,Verifying actual url with expected url,2019-04-08 16:59:50,2019-04-08 16:59:50,0.009s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow Premium URL,Chrome 73.0.3683.86,,2019-04-08 16:59:50,2019-04-08 16:59:58,8.078s,PASSED
+"comment(""Verifying Premium Buynow URL Navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:59:50,2019-04-08 16:59:50,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,"Opening browser
+",2019-04-08 16:59:50,2019-04-08 16:59:54,3.588s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigating to MCCC URL,2019-04-08 16:59:54,2019-04-08 16:59:57,3.401s,PASSED
+"scrollToElement(findTestObject(""Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button""), 0)",Chrome 73.0.3683.86,Scroll upto Premium buynow button,2019-04-08 16:59:57,2019-04-08 16:59:57,0.151s,PASSED
+"click(findTestObject(""Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button""))",Chrome 73.0.3683.86,Click on Premium Buynow button,2019-04-08 16:59:57,2019-04-08 16:59:58,0.762s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/5/PREMIER/0""",Chrome 73.0.3683.86,Verifying Actual URL with expected URL,2019-04-08 16:59:58,2019-04-08 16:59:58,0.009s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow Teen URL,Chrome 73.0.3683.86,,2019-04-08 16:59:58,2019-04-08 17:00:06,8.203s,PASSED
+"comment(""Verifying Teen URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 16:59:58,2019-04-08 16:59:58,0.001s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 16:59:58,2019-04-08 17:00:03,4.781s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 17:00:03,2019-04-08 17:00:05,2.309s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow Teen URL/Teen BUY NOW button""), 0)",Chrome 73.0.3683.86,"scroll upto teen buynow button
+",2019-04-08 17:00:05,2019-04-08 17:00:05,0.124s,PASSED
+"click(findTestObject(""URL Verifications/Buynow Teen URL/Teen BUY NOW button""))",Chrome 73.0.3683.86,Click on teen buynow button,2019-04-08 17:00:05,2019-04-08 17:00:06,0.816s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/12/TEEN/11""",Chrome 73.0.3683.86,Verifying actual url with expected url,2019-04-08 17:00:06,2019-04-08 17:00:06,0.009s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow URL for Premium plus,Chrome 73.0.3683.86,,2019-04-08 17:00:06,2019-04-08 17:00:15,8.478s,PASSED
+"comment(""Verifying Premium plus URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 17:00:06,2019-04-08 17:00:06,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 17:00:06,2019-04-08 17:00:11,5.150s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigating to MCCC URL,2019-04-08 17:00:11,2019-04-08 17:00:13,2.105s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow premium plus URL/premium plus BUY NOW button""), 0)",Chrome 73.0.3683.86,scroll to premium plus buynow button,2019-04-08 17:00:13,2019-04-08 17:00:14,0.212s,PASSED
+"click(findTestObject(""URL Verifications/Buynow premium plus URL/premium plus BUY NOW button""))",Chrome 73.0.3683.86,Click on premium buynow button,2019-04-08 17:00:14,2019-04-08 17:00:15,0.831s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/9/PREMIER_PLUS/8""",Chrome 73.0.3683.86,Verifying actual URLvwith expected URL,2019-04-08 17:00:15,2019-04-08 17:00:15,0.011s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Buynow Young adult URL,Chrome 73.0.3683.86,,2019-04-08 17:00:15,2019-04-08 17:00:29,14.351s,PASSED
+"comment(""Verifying Young adult URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 17:00:15,2019-04-08 17:00:15,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 17:00:15,2019-04-08 17:00:21,6.471s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 17:00:21,2019-04-08 17:00:28,6.633s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow young adult URL/Young adult BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto Buynow button,2019-04-08 17:00:28,2019-04-08 17:00:28,0.244s,PASSED
+"click(findTestObject(""URL Verifications/Buynow young adult URL/Young adult BUY NOW button""))",Chrome 73.0.3683.86,Click on young adult buynow button,2019-04-08 17:00:28,2019-04-08 17:00:29,0.712s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3""",Chrome 73.0.3683.86,Verifying actual URL with expected URL,2019-04-08 17:00:29,2019-04-08 17:00:29,0.019s,PASSED
+,,,,,,
+Test Cases/URL Verifications/Cart URL verification,Chrome 73.0.3683.86,,2019-04-08 17:00:29,2019-04-08 17:00:38,8.870s,PASSED
+"comment(""Verifying Cart button Navigation"")",Chrome 73.0.3683.86,,2019-04-08 17:00:29,2019-04-08 17:00:29,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,"Open browser
+",2019-04-08 17:00:29,2019-04-08 17:00:34,4.456s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 17:00:34,2019-04-08 17:00:36,2.717s,PASSED
+"click(findTestObject(""URL Verifications/Cart URL verification/Page_Middlesex Cricket Memberships/cart button""))",Chrome 73.0.3683.86,Click on Cart Button,2019-04-08 17:00:36,2019-04-08 17:00:38,1.473s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/basket""",Chrome 73.0.3683.86,Verifying Actual URL with Expected URL,2019-04-08 17:00:38,2019-04-08 17:00:38,0.016s,PASSED
+,,,,,,
+Test Cases/URL Verifications/MCCC url verification,Chrome 73.0.3683.86,,2019-04-08 17:00:38,2019-04-08 17:00:45,7.369s,PASSED
+"comment(""MCCC URL Verification"")",Chrome 73.0.3683.86,,2019-04-08 17:00:38,2019-04-08 17:00:38,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-08 17:00:38,2019-04-08 17:00:42,4.037s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 17:00:42,2019-04-08 17:00:45,2.940s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/list""",Chrome 73.0.3683.86,Verifying actual URL with expected URL,2019-04-08 17:00:45,2019-04-08 17:00:45,0.015s,PASSED
+,,,,,,
+Test Cases/URL Verifications/membership comparision URL,Chrome 73.0.3683.86,,2019-04-08 17:00:45,2019-04-08 17:00:52,7.199s,PASSED
+"comment(""Verifying Membership comparision URL navigation"")",Chrome 73.0.3683.86,,2019-04-08 17:00:45,2019-04-08 17:00:45,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-08 17:00:45,2019-04-08 17:00:49,4.001s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 17:00:49,2019-04-08 17:00:51,2.044s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow Full URL/Full BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto full buynow button,2019-04-08 17:00:51,2019-04-08 17:00:51,0.035s,PASSED
+"click(findTestObject(""URL Verifications/Buynow Full URL/Full BUY NOW button""))",Chrome 73.0.3683.86,Click on full buynow button,2019-04-08 17:00:51,2019-04-08 17:00:52,0.579s,PASSED
+"click(findTestObject(""URL Verifications/Membership comparison URL/Membership Comparison button""))",Chrome 73.0.3683.86,Click on membership comparision button,2019-04-08 17:00:52,2019-04-08 17:00:52,0.299s,PASSED
+"assert getUrl() == ""http://192.168.0.28:90/list""",Chrome 73.0.3683.86,Verifying actual url with expected url,2019-04-08 17:00:52,2019-04-08 17:00:52,0.015s,PASSED

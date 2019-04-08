@@ -19,7 +19,7 @@ WebUI.comment('Verifying Young adult URL navigation')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Scroll upto Buynow button'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow young adult URL/Young adult BUY NOW button'), 0)
@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('URL Verifications/Buynow young adult URL/Y
 WebUI.click(findTestObject('URL Verifications/Buynow young adult URL/Young adult BUY NOW button'))
 
 'Verifying actual URL with expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/4/YOUNG_ADULT_STUDENT/3'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3'
 

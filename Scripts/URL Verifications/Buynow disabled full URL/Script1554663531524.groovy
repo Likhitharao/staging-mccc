@@ -19,7 +19,7 @@ WebUI.comment('Verifying Disabled buynow URL navigation')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'scroll upto disabled buynow url'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow disabled URL/Disabled BUY NOW button'), 0)
@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('URL Verifications/Buynow disabled URL/Disa
 WebUI.click(findTestObject('URL Verifications/Buynow disabled URL/Disabled BUY NOW button'))
 
 'Verifying actual url with expected url'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/7/DISABLED_FULL/9'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/10/DISABLED_FULL/9'
 

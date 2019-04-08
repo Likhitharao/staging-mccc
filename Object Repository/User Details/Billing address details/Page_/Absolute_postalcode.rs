@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Absolute_postalcode</name>
+   <tag></tag>
+   <elementGuidId>e376975f-4852-4df4-8a80-6ebb05757a2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[9]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[9]/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

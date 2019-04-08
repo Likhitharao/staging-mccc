@@ -19,7 +19,7 @@ WebUI.comment('Verifying Premium plus URL navigation')
 WebUI.openBrowser('')
 
 'Navigating to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'scroll to premium plus buynow button'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow premium plus URL/premium plus BUY NOW button'), 0)
@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('URL Verifications/Buynow premium plus URL/
 WebUI.click(findTestObject('URL Verifications/Buynow premium plus URL/premium plus BUY NOW button'))
 
 'Verifying actual URLvwith expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/5/PREMIER_PLUS/8'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/9/PREMIER_PLUS/8'
 

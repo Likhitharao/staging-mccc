@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QUa</name>
+   <tag></tag>
+   <elementGuidId>6a8c228e-add9-43b9-babb-43e51cc92532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/section/div[5]/div[2]/table/tbody/tr[2]/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/section/div[5]/div[2]/table/tbody/tr[2]/td[2]/div</value>
+   </webElementProperties>
+</WebElementEntity>

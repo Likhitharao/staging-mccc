@@ -19,8 +19,8 @@ WebUI.comment('MCCC URL Verification')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Verifying actual URL with expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/list'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/list'
 

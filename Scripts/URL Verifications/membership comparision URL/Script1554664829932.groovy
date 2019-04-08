@@ -19,7 +19,7 @@ WebUI.comment('Verifying Membership comparision URL navigation')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Scroll upto full buynow button'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow Full URL/Full BUY NOW button'), 0)
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('URL Verifications/Buynow Full URL/Full BUY NOW butto
 WebUI.click(findTestObject('URL Verifications/Membership comparison URL/Membership Comparison button'))
 
 'Verifying actual url with expected url'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/list'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/list'
 

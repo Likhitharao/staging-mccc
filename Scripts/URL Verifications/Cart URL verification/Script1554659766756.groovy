@@ -19,11 +19,11 @@ WebUI.comment('Verifying Cart button Navigation')
 WebUI.openBrowser('')
 
 'Navigate to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Click on Cart Button'
 WebUI.click(findTestObject('URL Verifications/Cart URL verification/Page_Middlesex Cricket Memberships/cart button'))
 
 'Verifying Actual URL with Expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/basket'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/basket'
 

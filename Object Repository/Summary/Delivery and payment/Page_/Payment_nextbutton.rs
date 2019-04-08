@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Payment_nextbutton</name>
+   <tag></tag>
+   <elementGuidId>a916d196-902f-4d67-937f-4925639def62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/section/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/section/div/div[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>

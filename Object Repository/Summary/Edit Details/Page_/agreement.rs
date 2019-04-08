@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>agreement</name>
+   <tag></tag>
+   <elementGuidId>8c9c62ad-ac14-4aaa-8d4c-294165b96a0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/section/div[4]/div/div/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/section/div[4]/div/div/input[2]</value>
+   </webElementProperties>
+</WebElementEntity>

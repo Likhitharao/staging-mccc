@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Buynow Process for Disabled full,Chrome 73.0.3683.86,,2019-04-08 18:29:53,2019-04-08 18:31:23,1m - 29.256s,FAILED
+,,,,,,
+Test Cases/Buynow Process/Buynow for Disabled country,Chrome 73.0.3683.86,,2019-04-08 18:29:54,2019-04-08 18:30:04,10.335s,PASSED
+"comment(""Buynow for Disabled Full "")",Chrome 73.0.3683.86,,2019-04-08 18:29:54,2019-04-08 18:29:54,0.143s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-08 18:29:54,2019-04-08 18:29:58,3.934s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-08 18:29:58,2019-04-08 18:30:00,1.994s,PASSED
+"scrollToElement(findTestObject(""URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button""), 0)",Chrome 73.0.3683.86,Scroll upto disabled full button,2019-04-08 18:30:00,2019-04-08 18:30:00,0.117s,PASSED
+"click(findTestObject(""URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button""))",Chrome 73.0.3683.86,Click on Disabled full button,2019-04-08 18:30:00,2019-04-08 18:30:01,0.659s,PASSED
+"quantitytotal = getNumberOfTotalOption(findTestObject(""Buynow process/Buynow for premium/Page_PREMIER/select quantity""))",Chrome 73.0.3683.86,Get total options in Quantity dropdown and store it in variable (quantitytotal),2019-04-08 18:30:01,2019-04-08 18:30:01,0.124s,PASSED
+rad = new java.util.Random(),Chrome 73.0.3683.86,Random selection,2019-04-08 18:30:01,2019-04-08 18:30:01,0.006s,PASSED
+quantity = 1 + rad.nextInt(quantitytotal - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:01,2019-04-08 18:30:01,0.005s,PASSED
+"selectOptionByIndex(findTestObject(""Buynow process/Buynow for premium/Page_PREMIER/select quantity""), quantity)",Chrome 73.0.3683.86,Select Quantity from dropdown randomly,2019-04-08 18:30:01,2019-04-08 18:30:01,0.185s,PASSED
+"Totalquantity1 = getAttribute(findTestObject(""Buynow process/Buynow for premium/Page_PREMIER/select quantity""), ""value"")",Chrome 73.0.3683.86,Get qunatity from Membership page,2019-04-08 18:30:01,2019-04-08 18:30:01,0.049s,PASSED
+"click(findTestObject(""Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button""))",Chrome 73.0.3683.86,Click on add to basket button,2019-04-08 18:30:01,2019-04-08 18:30:02,0.123s,PASSED
+"Totalquantity2 = getAttribute(findTestObject(""Buynow process/Buynow for premium/Page_/Quantity in basket""), ""value"")",Chrome 73.0.3683.86,Get quantity from Basket page,2019-04-08 18:30:02,2019-04-08 18:30:03,1.624s,PASSED
+assert Totalquantity1 == Totalquantity2,Chrome 73.0.3683.86,Verifying Quantity in membership page and basket equals are not,2019-04-08 18:30:03,2019-04-08 18:30:03,0.004s,PASSED
+"scrollToElement(findTestObject(""Buynow process/Buynow for premium/Page_/Basket Checkout""), 0)",Chrome 73.0.3683.86,Scroll upto Basket checkout button,2019-04-08 18:30:03,2019-04-08 18:30:03,0.111s,PASSED
+"click(findTestObject(""Buynow process/Buynow for premium/Page_/Basket Checkout""))",Chrome 73.0.3683.86,click on Basket checkout button,2019-04-08 18:30:03,2019-04-08 18:30:04,0.828s,PASSED
+,,,,,,
+Test Cases/User Details/Registration,Chrome 73.0.3683.86,,2019-04-08 18:30:04,2019-04-08 18:30:06,1.890s,PASSED
+"comment(""Registration for MCCC"")",Chrome 73.0.3683.86,,2019-04-08 18:30:04,2019-04-08 18:30:04,0.015s,PASSED
+"setText(findTestObject(""User Details/Registration/Page_Laravel/Reg_First name""), ""John"")",Chrome 73.0.3683.86,Enter First name,2019-04-08 18:30:04,2019-04-08 18:30:04,0.124s,PASSED
+"setText(findTestObject(""User Details/Registration/Page_Laravel/Reg_Last name""), ""Levis"")",Chrome 73.0.3683.86,Enter Lastname,2019-04-08 18:30:04,2019-04-08 18:30:05,0.149s,PASSED
+"setText(findTestObject(""User Details/Registration/Page_Laravel/Reg_Date of birth""), ""02-03-1996"")",Chrome 73.0.3683.86,Enter DOB,2019-04-08 18:30:05,2019-04-08 18:30:05,0.232s,PASSED
+rad = new java.util.Random(),Chrome 73.0.3683.86,Random Selection,2019-04-08 18:30:05,2019-04-08 18:30:05,0.001s,PASSED
+Email = rad.nextInt(2000),Chrome 73.0.3683.86,,2019-04-08 18:30:05,2019-04-08 18:30:05,0.001s,PASSED
+"Regemail = setText(findTestObject(""User Details/Registration/Page_Laravel/Reg_Email""), ""MCCC"" + Email + ""@gmail.com"")",Chrome 73.0.3683.86,Random Email,2019-04-08 18:30:05,2019-04-08 18:30:05,0.257s,PASSED
+"setEncryptedText(findTestObject(""User Details/Registration/Page_Laravel/Reg_Password""), ""nbPRAawFRnE="")",Chrome 73.0.3683.86,Set Password,2019-04-08 18:30:05,2019-04-08 18:30:05,0.190s,PASSED
+"setEncryptedText(findTestObject(""User Details/Registration/Page_Laravel/Reg_Confirm password""), ""nbPRAawFRnE="")",Chrome 73.0.3683.86,Confirm Password,2019-04-08 18:30:05,2019-04-08 18:30:05,0.140s,PASSED
+"scrollToElement(findTestObject(""User Details/Registration/Page_Laravel/button_REGISTER""), 0)",Chrome 73.0.3683.86,Scroll upto Registration Button,2019-04-08 18:30:05,2019-04-08 18:30:05,0.043s,PASSED
+"click(findTestObject(""User Details/Registration/Page_Laravel/button_REGISTER""))",Chrome 73.0.3683.86,Click on registration,2019-04-08 18:30:05,2019-04-08 18:30:06,0.505s,PASSED
+,,,,,,
+Test Cases/User Details/Billing address details,Chrome 73.0.3683.86,,2019-04-08 18:30:06,2019-04-08 18:30:14,7.942s,PASSED
+"comment(""Billing Address Details"")",Chrome 73.0.3683.86,,2019-04-08 18:30:06,2019-04-08 18:30:06,0.003s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 18:30:06,2019-04-08 18:30:11,4.999s,PASSED
+"Totaltitle = getNumberOfTotalOption(findTestObject(""User Details/Billing address details/Page_/Absolute_title""))",Chrome 73.0.3683.86,Total options in Title dropdown,2019-04-08 18:30:11,2019-04-08 18:30:11,0.098s,PASSED
+rad = new java.util.Random(),Chrome 73.0.3683.86,Random Selection,2019-04-08 18:30:11,2019-04-08 18:30:11,0.000s,PASSED
+count = 1 + rad.nextInt(Totaltitle - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:11,2019-04-08 18:30:11,0.001s,PASSED
+"scrollToElement(findTestObject(""User Details/Billing address details/Page_/Absolute_title""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:11,2019-04-08 18:30:11,0.035s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/Billing address details/Page_/Absolute_title""), count)",Chrome 73.0.3683.86,Select title dropdown Randomly,2019-04-08 18:30:11,2019-04-08 18:30:12,0.131s,PASSED
+if (count == 5),Chrome 73.0.3683.86,If in random count = Company,2019-04-08 18:30:12,2019-04-08 18:30:12,0.001s,PASSED
+"scrollToElement(findTestObject(""User Details/Billing address details/Page_/Abs -street""), 0)",Chrome 73.0.3683.86,Scroll upto Street  text field,2019-04-08 18:30:12,2019-04-08 18:30:12,0.045s,PASSED
+"setText(findTestObject(""User Details/Billing address details/Page_/Abs -street""), ""SN puram"")",Chrome 73.0.3683.86,Enter Street field,2019-04-08 18:30:12,2019-04-08 18:30:12,0.222s,PASSED
+"setText(findTestObject(""User Details/Billing address details/Page_/Absolute-Address""), ""3rd link Street"")",Chrome 73.0.3683.86,Enter Address,2019-04-08 18:30:12,2019-04-08 18:30:12,0.211s,PASSED
+"setText(findTestObject(""User Details/Billing address details/Page_/Absolute_City""), ""Chennai"")",Chrome 73.0.3683.86,Enter City,2019-04-08 18:30:12,2019-04-08 18:30:12,0.149s,PASSED
+"Totalcounty = getNumberOfTotalOption(findTestObject(""User Details/New Billing address/Page_/County""))",Chrome 73.0.3683.86,Get total county options,2019-04-08 18:30:12,2019-04-08 18:30:12,0.082s,PASSED
+rad1 = new java.util.Random(),Chrome 73.0.3683.86,Random Selection,2019-04-08 18:30:12,2019-04-08 18:30:12,0.001s,PASSED
+count1 = 1 + rad1.nextInt(Totalcounty - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:12,2019-04-08 18:30:12,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/New Billing address/Page_/County""), count1)",Chrome 73.0.3683.86,Select Random value from County dropdown,2019-04-08 18:30:12,2019-04-08 18:30:13,0.268s,PASSED
+"setText(findTestObject(""User Details/Billing address details/Page_/Absolute_postalcode""), ""562396"")",Chrome 73.0.3683.86,Enter postalcode,2019-04-08 18:30:13,2019-04-08 18:30:13,0.150s,PASSED
+"Totalcountry = getNumberOfTotalOption(findTestObject(""User Details/New Billing address/Page_/Country""))",Chrome 73.0.3683.86,Get total Country dropdown options,2019-04-08 18:30:13,2019-04-08 18:30:13,0.135s,PASSED
+rad2 = new java.util.Random(),Chrome 73.0.3683.86,Random Selection,2019-04-08 18:30:13,2019-04-08 18:30:13,0.000s,PASSED
+count2 = 1 + rad2.nextInt(Totalcountry - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:13,2019-04-08 18:30:13,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/New Billing address/Page_/Country""), count2)",Chrome 73.0.3683.86,Select Randomly from Country Dropdown,2019-04-08 18:30:13,2019-04-08 18:30:14,0.889s,PASSED
+"setText(findTestObject(""User Details/Billing address details/Page_/Absolute_telephone""), ""96632587412"")",Chrome 73.0.3683.86,Enter telephone Number,2019-04-08 18:30:14,2019-04-08 18:30:14,0.210s,PASSED
+,,,,,,
+Test Cases/User Details/New Billing address,Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:18,3.969s,PASSED
+"click(findTestObject(""User Details/New Billing address/Page_/input_Same as billing address_ca_deliveryoption""))",Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:14,0.100s,PASSED
+"Totaltitle = getNumberOfTotalOption(findTestObject(""User Details/New Billing address/Absolute_Title""))",Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:14,0.062s,PASSED
+rad = new java.util.Random(),Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:14,0.001s,PASSED
+count = 1 + rad.nextInt(Totaltitle - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:14,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/New Billing address/Absolute_Title""), count, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:14,0.168s,PASSED
+if (count == 5),Chrome 73.0.3683.86,,2019-04-08 18:30:14,2019-04-08 18:30:15,0.152s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_First name_ca_deliveryorderbaseaddressfirstname""), ""Williams"")",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.198s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_Last name_ca_deliveryorderbaseaddresslastname""), ""denim"")",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.134s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_Street_ca_deliveryorderbaseaddressaddress1""), ""Link street"")",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.198s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_Address_ca_deliveryorderbaseaddressaddress2""), ""56/7"")",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.120s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_City_ca_deliveryorderbaseaddresscity""), ""chennai"")",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.146s,PASSED
+"Totalcounty = getNumberOfTotalOption(findTestObject(""User Details/New Billing address/Absolute-county""))",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.074s,PASSED
+rad1 = new java.util.Random(),Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.001s,PASSED
+count1 = 1 + rad1.nextInt(Totalcounty - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:15,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/New Billing address/Absolute-county""), count1)",Chrome 73.0.3683.86,,2019-04-08 18:30:15,2019-04-08 18:30:16,0.898s,PASSED
+"setText(findTestObject(""User Details/New Billing address/Page_/input_Postal code_ca_deliveryorderbaseaddresspostal""), ""562396"")",Chrome 73.0.3683.86,,2019-04-08 18:30:16,2019-04-08 18:30:17,0.162s,PASSED
+"Totalcountry = getNumberOfTotalOption(findTestObject(""User Details/New Billing address/Absolute_country""))",Chrome 73.0.3683.86,,2019-04-08 18:30:17,2019-04-08 18:30:17,0.118s,PASSED
+rad2 = new java.util.Random(),Chrome 73.0.3683.86,,2019-04-08 18:30:17,2019-04-08 18:30:17,0.001s,PASSED
+count2 = 1 + rad2.nextInt(Totalcountry - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:17,2019-04-08 18:30:17,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""User Details/New Billing address/Absolute_country""), count2)",Chrome 73.0.3683.86,,2019-04-08 18:30:17,2019-04-08 18:30:18,0.975s,PASSED
+"click(findTestObject(""User Details/New Billing address/Page_/button_Next""))",Chrome 73.0.3683.86,,2019-04-08 18:30:18,2019-04-08 18:30:18,0.266s,PASSED
+,,,,,,
+Test Cases/Summary/Delivery and payment,Chrome 73.0.3683.86,,2019-04-08 18:30:18,2019-04-08 18:30:24,5.669s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Billing/Page_/small_Next""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:18,2019-04-08 18:30:18,0.029s,PASSED
+"click(findTestObject(""Summary/Edit Billing/Page_/small_Next""))",Chrome 73.0.3683.86,,2019-04-08 18:30:18,2019-04-08 18:30:18,0.214s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 18:30:18,2019-04-08 18:30:23,4.993s,PASSED
+"scrollToElement(findTestObject(""Summary/Delivery and payment/Page_/Payment_nextbutton""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:23,2019-04-08 18:30:23,0.057s,PASSED
+"click(findTestObject(""Summary/Delivery and payment/Page_/Payment_nextbutton""))",Chrome 73.0.3683.86,,2019-04-08 18:30:23,2019-04-08 18:30:24,0.194s,PASSED
+,,,,,,
+Test Cases/Summary/Edit Coupon,Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:25,0.998s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.033s,PASSED
+"click(findTestObject(""Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit""))",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.221s,PASSED
+"setText(findTestObject(""Summary/Edit Coupon/Page_/input_41500_b_coupon""), ""Wisden"")",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.135s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Coupon/Page_/button_Apply""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.044s,PASSED
+"click(findTestObject(""Summary/Edit Coupon/Page_/button_Apply""))",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.071s,PASSED
+"scrollToElement(findTestObject(""Buynow process/Buynow for premium/Page_/Basket Checkout""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:24,0.043s,PASSED
+"click(findTestObject(""Buynow process/Buynow for premium/Page_/Basket Checkout""))",Chrome 73.0.3683.86,,2019-04-08 18:30:24,2019-04-08 18:30:25,0.278s,PASSED
+,,,,,,
+Test Cases/Summary/Edit Details,Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:31:22,57.434s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Details/Page_/Edit Details button""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:25,0.052s,PASSED
+"click(findTestObject(""Summary/Edit Details/Page_/Edit Details button""))",Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:25,0.264s,PASSED
+"Totalquantity = getNumberOfTotalOption(findTestObject(""Summary/Edit Details/Page_/select Quantity in Basket""))",Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:25,0.064s,PASSED
+rad = new java.util.Random(),Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:25,0.000s,PASSED
+count = 1 + rad.nextInt(Totalquantity - 1),Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:25,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""Summary/Edit Details/Page_/select Quantity in Basket""), count)",Chrome 73.0.3683.86,,2019-04-08 18:30:25,2019-04-08 18:30:26,0.345s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Details/Page_/Basket Checkout""), 0)",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:26,0.033s,PASSED
+"click(findTestObject(""Summary/Edit Details/Page_/Basket Checkout""))",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:26,0.204s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Details/Page_/agreement""), 10)",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:26,0.070s,PASSED
+"click(findTestObject(""Summary/Edit Details/Page_/agreement""))",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:26,0.059s,PASSED
+"scrollToElement(findTestObject(""Summary/Edit Details/over/Page_/button_Buy now""), 20)",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:26,0.040s,PASSED
+"click(findTestObject(""Summary/Edit Details/over/Page_/button_Buy now""))",Chrome 73.0.3683.86,,2019-04-08 18:30:26,2019-04-08 18:30:30,3.574s,PASSED
+delay(20),Chrome 73.0.3683.86,,2019-04-08 18:30:30,2019-04-08 18:30:49,19.966s,PASSED
+"switchToFrame(findTestObject(""delete/Page_/iframe_Payment Details___privateStripeFrame7""), 10)",Chrome 73.0.3683.86,,2019-04-08 18:30:49,2019-04-08 18:30:50,0.093s,PASSED
+"setText(findTestObject(""delete/Page_/div_id(katalon-spy_elementInfoDiv)""), ""tftgfhytghy"")",Chrome 73.0.3683.86,,2019-04-08 18:30:50,2019-04-08 18:31:22,32.456s,FAILED

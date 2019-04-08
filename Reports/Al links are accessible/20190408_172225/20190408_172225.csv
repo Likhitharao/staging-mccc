@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Al links are accessible,Chrome 73.0.3683.86,,2019-04-08 17:22:30,2019-04-08 17:25:39,3m - 8.472s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Cart,Chrome 73.0.3683.86,,2019-04-08 17:22:31,2019-04-08 17:22:59,28.281s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Cart Icon"")",Chrome 73.0.3683.86,,2019-04-08 17:22:31,2019-04-08 17:22:31,0.144s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening the browser,2019-04-08 17:22:31,2019-04-08 17:22:38,7.285s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,MCCC URL,2019-04-08 17:22:38,2019-04-08 17:22:48,10.014s,PASSED
+"click(findTestObject(""All links are Accessible/Cart""))",Chrome 73.0.3683.86,Click on Cart Icon,2019-04-08 17:22:48,2019-04-08 17:22:54,5.446s,PASSED
+"verifyTextPresent(""Basket"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-08 17:22:54,2019-04-08 17:22:54,0.136s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-08 17:22:54,2019-04-08 17:22:55,0.609s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-08 17:22:55,2019-04-08 17:22:59,4.153s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Country,Chrome 73.0.3683.86,,2019-04-08 17:22:59,2019-04-08 17:23:13,14.157s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Country Buynow"")",Chrome 73.0.3683.86,,2019-04-08 17:22:59,2019-04-08 17:22:59,0.004s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening the browser,2019-04-08 17:22:59,2019-04-08 17:23:03,3.622s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/7/COUNTRY/2"")",Chrome 73.0.3683.86,MCCC Country page URL,2019-04-08 17:23:03,2019-04-08 17:23:06,3.093s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:23:06,2019-04-08 17:23:11,5.013s,PASSED
+"verifyTextPresent(""COUNTRY MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-08 17:23:11,2019-04-08 17:23:11,0.131s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-08 17:23:11,2019-04-08 17:23:12,0.565s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-08 17:23:12,2019-04-08 17:23:13,1.474s,PASSED
+,,,,,,
+"Test Cases/All Links are Accessible/Delivery,Returns and cancellations",Chrome 73.0.3683.86,,2019-04-08 17:23:13,2019-04-08 17:23:22,8.914s,FAILED
+"comment(""Verifying Whether Links are Working or not when we click on Delivery,Returns and cancellations link page"")",Chrome 73.0.3683.86,,2019-04-08 17:23:13,2019-04-08 17:23:13,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,"Open browser
+",2019-04-08 17:23:13,2019-04-08 17:23:17,3.922s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,MCCC URL,2019-04-08 17:23:17,2019-04-08 17:23:20,2.526s,PASSED
+"click(findTestObject(""All links are Accessible/Delivery,Returns and cancellations/Page_Middlesex Cricket Memberships/small_Delivery Returns and Cancellations""))",Chrome 73.0.3683.86,"Click on Delivery,Returns and cancellations link",2019-04-08 17:23:20,2019-04-08 17:23:20,0.135s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,As above link is Navigating to another window we are using Switch to window index,2019-04-08 17:23:20,2019-04-08 17:23:20,0.025s,PASSED
+"verifyTextPresent(""DELIVERY, RETURNS & CANCELLATIONS"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-08 17:23:20,2019-04-08 17:23:21,1.136s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-08 17:23:21,2019-04-08 17:23:21,0.281s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-08 17:23:21,2019-04-08 17:23:22,0.695s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Disabled country,Chrome 73.0.3683.86,,2019-04-08 17:23:22,2019-04-08 17:23:35,12.775s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Disabled country buynow page"")",Chrome 73.0.3683.86,,2019-04-08 17:23:22,2019-04-08 17:23:22,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:23:22,2019-04-08 17:23:26,4.149s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10"")",Chrome 73.0.3683.86,MCCC Disabled country page URL,2019-04-08 17:23:26,2019-04-08 17:23:28,1.588s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:23:28,2019-04-08 17:23:33,5.002s,PASSED
+"verifyTextPresent(""DISABLED COUNTRY MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-08 17:23:33,2019-04-08 17:23:33,0.122s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-08 17:23:33,2019-04-08 17:23:33,0.520s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-08 17:23:33,2019-04-08 17:23:35,1.193s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Disabled full,Chrome 73.0.3683.86,,2019-04-08 17:23:35,2019-04-08 17:23:47,12.780s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:23:35,2019-04-08 17:23:38,3.492s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/10/DISABLED_FULL/9"")",Chrome 73.0.3683.86,,2019-04-08 17:23:38,2019-04-08 17:23:40,2.006s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:23:40,2019-04-08 17:23:45,5.002s,PASSED
+"verifyTextPresent(""DISABLED FULL MEMBERSHIP"", false)",Chrome 73.0.3683.86,,2019-04-08 17:23:45,2019-04-08 17:23:46,0.105s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:23:46,2019-04-08 17:23:46,0.528s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:23:46,2019-04-08 17:23:47,1.426s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Full,Chrome 73.0.3683.86,,2019-04-08 17:23:47,2019-04-08 17:23:58,10.671s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:23:48,2019-04-08 17:23:51,3.230s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,,2019-04-08 17:23:51,2019-04-08 17:23:53,1.693s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:23:53,2019-04-08 17:23:58,5.003s,PASSED
+"click(findTestObject(""All links are Accessible/Links/Page_Middlesex Cricket Memberships/a_BUY NOW_1""))",Chrome 73.0.3683.86,,2019-04-08 17:23:58,2019-04-08 17:23:58,0.500s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Junior,Chrome 73.0.3683.86,,2019-04-08 17:23:58,2019-04-08 17:24:11,13.020s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:23:58,2019-04-08 17:24:02,3.988s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/13/JUNIOR/12"")",Chrome 73.0.3683.86,,2019-04-08 17:24:02,2019-04-08 17:24:04,2.036s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:24:04,2019-04-08 17:24:09,5.003s,PASSED
+"verifyTextPresent(""JUNIOR MEMBERSHIP"", false)",Chrome 73.0.3683.86,,2019-04-08 17:24:09,2019-04-08 17:24:10,0.107s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:10,2019-04-08 17:24:10,0.467s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:10,2019-04-08 17:24:11,1.188s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Membership page links,Chrome 73.0.3683.86,,2019-04-08 17:24:11,2019-04-08 17:24:20,9.307s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:24:11,2019-04-08 17:24:15,4.013s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,,2019-04-08 17:24:15,2019-04-08 17:24:17,2.041s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:17,2019-04-08 17:24:18,0.540s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-08 17:24:18,2019-04-08 17:24:20,2.524s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Premier,Chrome 73.0.3683.86,,2019-04-08 17:24:21,2019-04-08 17:24:32,11.368s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:24:21,2019-04-08 17:24:24,3.673s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,,2019-04-08 17:24:24,2019-04-08 17:24:26,2.053s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:24:26,2019-04-08 17:24:31,5.003s,PASSED
+"click(findTestObject(""Summary/spy/Page_Middlesex Cricket Memberships/a_BUY NOW""))",Chrome 73.0.3683.86,,2019-04-08 17:24:31,2019-04-08 17:24:32,0.388s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/primium plus,Chrome 73.0.3683.86,,2019-04-08 17:24:32,2019-04-08 17:24:45,12.631s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:24:32,2019-04-08 17:24:36,3.483s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/9/PREMIER_PLUS/8"")",Chrome 73.0.3683.86,,2019-04-08 17:24:36,2019-04-08 17:24:38,1.987s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:24:38,2019-04-08 17:24:43,5.002s,PASSED
+"verifyTextPresent(""PREMIER PLUS MEMBERSHIP"", false)",Chrome 73.0.3683.86,,2019-04-08 17:24:43,2019-04-08 17:24:43,0.112s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:43,2019-04-08 17:24:43,0.503s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:43,2019-04-08 17:24:45,1.359s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Privacy policy,Chrome 73.0.3683.86,,2019-04-08 17:24:45,2019-04-08 17:24:55,10.463s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:24:45,2019-04-08 17:24:48,3.582s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,,2019-04-08 17:24:48,2019-04-08 17:24:53,4.497s,PASSED
+"click(findTestObject(""All links are Accessible/Privacy policy/Page_Middlesex Cricket Memberships/small_Privacy Policy""))",Chrome 73.0.3683.86,,2019-04-08 17:24:53,2019-04-08 17:24:53,0.175s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,,2019-04-08 17:24:53,2019-04-08 17:24:53,0.013s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:24:53,2019-04-08 17:24:54,1.308s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-08 17:24:54,2019-04-08 17:24:55,0.659s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Teen,Chrome 73.0.3683.86,,2019-04-08 17:24:55,2019-04-08 17:25:12,17.057s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:24:55,2019-04-08 17:25:00,4.123s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/12/TEEN/11"")",Chrome 73.0.3683.86,,2019-04-08 17:25:00,2019-04-08 17:25:04,4.836s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:25:04,2019-04-08 17:25:09,5.003s,PASSED
+"verifyTextPresent(""TEEN MEMBERSHIP"", false)",Chrome 73.0.3683.86,,2019-04-08 17:25:09,2019-04-08 17:25:10,0.614s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:10,2019-04-08 17:25:11,0.497s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:11,2019-04-08 17:25:12,1.599s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Terms and Conditions links,Chrome 73.0.3683.86,,2019-04-08 17:25:12,2019-04-08 17:25:23,10.931s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:25:13,2019-04-08 17:25:17,4.825s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,,2019-04-08 17:25:17,2019-04-08 17:25:21,3.489s,PASSED
+"click(findTestObject(""All links are Accessible/Terms and conditions/Page_Middlesex Cricket Memberships/small_Terms  Conditions""))",Chrome 73.0.3683.86,,2019-04-08 17:25:21,2019-04-08 17:25:21,0.136s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,,2019-04-08 17:25:21,2019-04-08 17:25:21,0.012s,PASSED
+"verifyTextPresent(""TERMS AND CONDITIONS"", false)",Chrome 73.0.3683.86,,2019-04-08 17:25:21,2019-04-08 17:25:22,1.086s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:22,2019-04-08 17:25:23,0.305s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:23,2019-04-08 17:25:23,0.683s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Young adult,Chrome 73.0.3683.86,,2019-04-08 17:25:23,2019-04-08 17:25:38,14.756s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 17:25:23,2019-04-08 17:25:27,3.798s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3"")",Chrome 73.0.3683.86,,2019-04-08 17:25:27,2019-04-08 17:25:30,3.290s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 17:25:30,2019-04-08 17:25:35,5.004s,PASSED
+"verifyTextPresent(""YOUNG ADULT / STUDENT MEMBERSHIP"", false)",Chrome 73.0.3683.86,,2019-04-08 17:25:35,2019-04-08 17:25:36,0.119s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:36,2019-04-08 17:25:36,0.483s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,,2019-04-08 17:25:36,2019-04-08 17:25:38,1.882s,PASSED

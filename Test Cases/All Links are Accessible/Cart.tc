@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart</name>
+   <tag></tag>
+   <comment>Verifying Whether Links are Working or not when we click on Cart Icon</comment>
+   <testCaseGuid>88e7101d-e16e-4eee-bb19-d40fc87b2480</testCaseGuid>
+</TestCaseEntity>

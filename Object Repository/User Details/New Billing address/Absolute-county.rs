@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Absolute-county</name>
+   <tag></tag>
+   <elementGuidId>25c21ba0-a095-44d8-bf73-1546a6cc9070</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[2]/div/div[2]/ul/div[8]/div[2]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[2]/div/div[2]/ul/div[8]/div[2]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

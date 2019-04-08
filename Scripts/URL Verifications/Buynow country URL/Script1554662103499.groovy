@@ -19,7 +19,7 @@ WebUI.comment('Verifying Country Buynow URL Navigation')
 WebUI.openBrowser('')
 
 'Navigating to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Scroll upto Country buynow button'
 WebUI.scrollToElement(findTestObject('URL Verifications/Buynow Country URL/Country BUY NOW button'), 0)
@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('URL Verifications/Buynow Country URL/Count
 WebUI.click(findTestObject('URL Verifications/Buynow Country URL/Country BUY NOW button'))
 
 'Verifying actual URL with expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/3/COUNTRY/2'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/7/COUNTRY/2'
 

@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buynow Process for Disabled full" time="61" tests="5" failures="2" errors="0">
+   <testsuite name="Buynow Process for Disabled full" tests="5" failures="2" errors="0" time="61" timestamp="2019-04-08 18:35:48" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/Buynow Process for Disabled full">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546\\1554728776620.png, C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546\\1554728808790.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="c01113c107e26e321d8c479439501db1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buynow Process/Buynow for Disabled country" classname="Test Cases/Buynow Process/Buynow for Disabled country" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:35:49 - [TEST_CASE][PASSED] - Test Cases/Buynow Process/Buynow for Disabled country: Test Cases/Buynow Process/Buynow for Disabled country
+
+2019-04-08 18:35:49 - [TEST_STEP][PASSED] - comment("Buynow for Disabled Full "): Buynow for Disabled Full 
+
+2019-04-08 18:35:49 - [MESSAGE][INFO] - Buynow for Disabled Full 
+
+2019-04-08 18:35:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 18:35:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 18:35:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-08 18:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 18:35:53 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 18:35:54 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-08 18:35:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-08 18:35:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:35:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-08 18:35:54 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-08 18:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - quantitytotal = getNumberOfTotalOption(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity")): 10 options of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' counted
+
+2019-04-08 18:35:55 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' counted
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - quantity = 1 + rad.nextInt(quantitytotal - 1): null
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity"), quantity): All options with index in [7] are selected on object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity'
+
+2019-04-08 18:35:55 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity'
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - Totalquantity1 = getAttribute(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity"), "value"): Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' is: '8'
+
+2019-04-08 18:35:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' is: '8'
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button' is clicked on
+
+2019-04-08 18:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button' is clicked on
+
+2019-04-08 18:35:55 - [TEST_STEP][PASSED] - Totalquantity2 = getAttribute(findTestObject("Buynow process/Buynow for premium/Page_/Quantity in basket"), "value"): Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_/Quantity in basket' is: '8'
+
+2019-04-08 18:35:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_/Quantity in basket' is: '8'
+
+2019-04-08 18:35:57 - [TEST_STEP][PASSED] - assert Totalquantity1 == Totalquantity2: null
+
+2019-04-08 18:35:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout"), 0): Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-08 18:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:35:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-08 18:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on
+
+2019-04-08 18:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/Registration" classname="Test Cases/User Details/Registration" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:35:58 - [TEST_CASE][PASSED] - Test Cases/User Details/Registration: Test Cases/User Details/Registration
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - comment("Registration for MCCC"): Registration for MCCC
+
+2019-04-08 18:35:58 - [MESSAGE][INFO] - Registration for MCCC
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_First name"), "John"): Text 'John' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_First name'
+
+2019-04-08 18:35:58 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_First name'
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Last name"), "Levis"): Text 'Levis' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Last name'
+
+2019-04-08 18:35:58 - [MESSAGE][PASSED] - Text 'Levis' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Last name'
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Date of birth"), "02-03-1996"): Text '02-03-1996' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Date of birth'
+
+2019-04-08 18:35:58 - [MESSAGE][PASSED] - Text '02-03-1996' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Date of birth'
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - Email = rad.nextInt(2000): null
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - Regemail = setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Email"), "MCCC" + Email + "@gmail.com"): Text 'MCCC246@gmail.com' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Email'
+
+2019-04-08 18:35:58 - [MESSAGE][PASSED] - Text 'MCCC246@gmail.com' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Email'
+
+2019-04-08 18:35:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("User Details/Registration/Page_Laravel/Reg_Password"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Password'
+
+2019-04-08 18:35:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Password'
+
+2019-04-08 18:35:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("User Details/Registration/Page_Laravel/Reg_Confirm password"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Confirm password'
+
+2019-04-08 18:35:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Confirm password'
+
+2019-04-08 18:35:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Registration/Page_Laravel/button_REGISTER"), 0): Scroll to object 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' successfully
+
+2019-04-08 18:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:35:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' successfully
+
+2019-04-08 18:35:59 - [TEST_STEP][PASSED] - click(findTestObject("User Details/Registration/Page_Laravel/button_REGISTER")): Object: 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' is clicked on
+
+2019-04-08 18:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/Billing address details" classname="Test Cases/User Details/Billing address details" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:35:59 - [TEST_CASE][PASSED] - Test Cases/User Details/Billing address details: Test Cases/User Details/Billing address details
+
+2019-04-08 18:36:00 - [TEST_STEP][PASSED] - comment("Billing Address Details"): Billing Address Details
+
+2019-04-08 18:36:00 - [MESSAGE][INFO] - Billing Address Details
+
+2019-04-08 18:36:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - Totaltitle = getNumberOfTotalOption(findTestObject("User Details/Billing address details/Page_/Absolute_title")): 7 options of object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' counted
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' counted
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - count = 1 + rad.nextInt(Totaltitle - 1): null
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Billing address details/Page_/Absolute_title"), 0): Scroll to object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' successfully
+
+2019-04-08 18:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' successfully
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/Billing address details/Page_/Absolute_title"), count): All options with index in [4] are selected on object 'Object Repository/User Details/Billing address details/Page_/Absolute_title'
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/User Details/Billing address details/Page_/Absolute_title'
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - if (count == 5): null
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Billing address details/Page_/Abs -street"), 0): Scroll to object 'Object Repository/User Details/Billing address details/Page_/Abs -street' successfully
+
+2019-04-08 18:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Billing address details/Page_/Abs -street' successfully
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Abs -street"), "SN puram"): Text 'SN puram' is set on object 'Object Repository/User Details/Billing address details/Page_/Abs -street'
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - Text 'SN puram' is set on object 'Object Repository/User Details/Billing address details/Page_/Abs -street'
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute-Address"), "3rd link Street"): Text '3rd link Street' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute-Address'
+
+2019-04-08 18:36:05 - [MESSAGE][PASSED] - Text '3rd link Street' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute-Address'
+
+2019-04-08 18:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_City"), "Chennai"): Text 'Chennai' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_City'
+
+2019-04-08 18:36:06 - [MESSAGE][PASSED] - Text 'Chennai' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_City'
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - Totalcounty = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Page_/County")): 123 options of object 'Object Repository/User Details/New Billing address/Page_/County' counted
+
+2019-04-08 18:36:06 - [MESSAGE][PASSED] - 123 options of object 'Object Repository/User Details/New Billing address/Page_/County' counted
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - rad1 = new java.util.Random(): null
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - count1 = 1 + rad1.nextInt(Totalcounty - 1): null
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Page_/County"), count1): All options with index in [22] are selected on object 'Object Repository/User Details/New Billing address/Page_/County'
+
+2019-04-08 18:36:06 - [MESSAGE][PASSED] - All options with index in [22] are selected on object 'Object Repository/User Details/New Billing address/Page_/County'
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_postalcode"), "562396"): Text '562396' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_postalcode'
+
+2019-04-08 18:36:06 - [MESSAGE][PASSED] - Text '562396' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_postalcode'
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - Totalcountry = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Page_/Country")): 250 options of object 'Object Repository/User Details/New Billing address/Page_/Country' counted
+
+2019-04-08 18:36:06 - [MESSAGE][PASSED] - 250 options of object 'Object Repository/User Details/New Billing address/Page_/Country' counted
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - rad2 = new java.util.Random(): null
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - count2 = 1 + rad2.nextInt(Totalcountry - 1): null
+
+2019-04-08 18:36:06 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Page_/Country"), count2): All options with index in [62] are selected on object 'Object Repository/User Details/New Billing address/Page_/Country'
+
+2019-04-08 18:36:07 - [MESSAGE][PASSED] - All options with index in [62] are selected on object 'Object Repository/User Details/New Billing address/Page_/Country'
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_telephone"), "96632587412"): Text '96632587412' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_telephone'
+
+2019-04-08 18:36:07 - [MESSAGE][PASSED] - Text '96632587412' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_telephone']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/New Billing address" classname="Test Cases/User Details/New Billing address" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:36:07 - [TEST_CASE][PASSED] - Test Cases/User Details/New Billing address: Test Cases/User Details/New Billing address
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - click(findTestObject("User Details/New Billing address/Page_/input_Same as billing address_ca_deliveryoption")): Object: 'Object Repository/User Details/New Billing address/Page_/input_Same as billing address_ca_deliveryoption' is clicked on
+
+2019-04-08 18:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/New Billing address/Page_/input_Same as billing address_ca_deliveryoption' is clicked on
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - Totaltitle = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute_Title")): 7 options of object 'Object Repository/User Details/New Billing address/Absolute_Title' counted
+
+2019-04-08 18:36:07 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/User Details/New Billing address/Absolute_Title' counted
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - count = 1 + rad.nextInt(Totaltitle - 1): null
+
+2019-04-08 18:36:07 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute_Title"), count, STOP_ON_FAILURE): All options with index in [3] are selected on object 'Object Repository/User Details/New Billing address/Absolute_Title'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/User Details/New Billing address/Absolute_Title'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - if (count == 5): null
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_First name_ca_deliveryorderbaseaddressfirstname"), "Williams"): Text 'Williams' is set on object 'Object Repository/User Details/New Billing address/Page_/input_First name_ca_deliveryorderbaseaddressfirstname'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - Text 'Williams' is set on object 'Object Repository/User Details/New Billing address/Page_/input_First name_ca_deliveryorderbaseaddressfirstname'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_Last name_ca_deliveryorderbaseaddresslastname"), "denim"): Text 'denim' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Last name_ca_deliveryorderbaseaddresslastname'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - Text 'denim' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Last name_ca_deliveryorderbaseaddresslastname'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_Street_ca_deliveryorderbaseaddressaddress1"), "Link street"): Text 'Link street' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Street_ca_deliveryorderbaseaddressaddress1'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - Text 'Link street' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Street_ca_deliveryorderbaseaddressaddress1'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_Address_ca_deliveryorderbaseaddressaddress2"), "56/7"): Text '56/7' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Address_ca_deliveryorderbaseaddressaddress2'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - Text '56/7' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Address_ca_deliveryorderbaseaddressaddress2'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_City_ca_deliveryorderbaseaddresscity"), "chennai"): Text 'chennai' is set on object 'Object Repository/User Details/New Billing address/Page_/input_City_ca_deliveryorderbaseaddresscity'
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/User Details/New Billing address/Page_/input_City_ca_deliveryorderbaseaddresscity'
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - Totalcounty = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute-county")): 123 options of object 'Object Repository/User Details/New Billing address/Absolute-county' counted
+
+2019-04-08 18:36:08 - [MESSAGE][PASSED] - 123 options of object 'Object Repository/User Details/New Billing address/Absolute-county' counted
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - rad1 = new java.util.Random(): null
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - count1 = 1 + rad1.nextInt(Totalcounty - 1): null
+
+2019-04-08 18:36:08 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute-county"), count1): All options with index in [1] are selected on object 'Object Repository/User Details/New Billing address/Absolute-county'
+
+2019-04-08 18:36:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/User Details/New Billing address/Absolute-county'
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/input_Postal code_ca_deliveryorderbaseaddresspostal"), "562396"): Text '562396' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Postal code_ca_deliveryorderbaseaddresspostal'
+
+2019-04-08 18:36:09 - [MESSAGE][PASSED] - Text '562396' is set on object 'Object Repository/User Details/New Billing address/Page_/input_Postal code_ca_deliveryorderbaseaddresspostal'
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - Totalcountry = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute_country")): 250 options of object 'Object Repository/User Details/New Billing address/Absolute_country' counted
+
+2019-04-08 18:36:09 - [MESSAGE][PASSED] - 250 options of object 'Object Repository/User Details/New Billing address/Absolute_country' counted
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - rad2 = new java.util.Random(): null
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - count2 = 1 + rad2.nextInt(Totalcountry - 1): null
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute_country"), count2): All options with index in [46] are selected on object 'Object Repository/User Details/New Billing address/Absolute_country'
+
+2019-04-08 18:36:09 - [MESSAGE][PASSED] - All options with index in [46] are selected on object 'Object Repository/User Details/New Billing address/Absolute_country'
+
+2019-04-08 18:36:09 - [TEST_STEP][PASSED] - click(findTestObject("User Details/New Billing address/Page_/button_Next")): Object: 'Object Repository/User Details/New Billing address/Page_/button_Next' is clicked on
+
+2019-04-08 18:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/New Billing address/Page_/button_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Delivery and payment" classname="Test Cases/Summary/Delivery and payment" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:36:10 - [TEST_CASE][PASSED] - Test Cases/Summary/Delivery and payment: Test Cases/Summary/Delivery and payment
+
+2019-04-08 18:36:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Billing/Page_/small_Next"), 0): Scroll to object 'Object Repository/Summary/Edit Billing/Page_/small_Next' successfully
+
+2019-04-08 18:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Billing/Page_/small_Next' successfully
+
+2019-04-08 18:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Billing/Page_/small_Next")): Object: 'Object Repository/Summary/Edit Billing/Page_/small_Next' is clicked on
+
+2019-04-08 18:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Billing/Page_/small_Next' is clicked on
+
+2019-04-08 18:36:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-08 18:36:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-08 18:36:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Delivery and payment/Page_/Payment_nextbutton"), 0): Scroll to object 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' successfully
+
+2019-04-08 18:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' successfully
+
+2019-04-08 18:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Delivery and payment/Page_/Payment_nextbutton")): Object: 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' is clicked on
+
+2019-04-08 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Edit Coupon" classname="Test Cases/Summary/Edit Coupon" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Summary/Edit Coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-08 18:36:15 - [TEST_CASE][FAILED] - Test Cases/Summary/Edit Coupon: Test Cases/Summary/Edit Coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more
+
+
+2019-04-08 18:36:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit"), 0): Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' successfully
+
+2019-04-08 18:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' successfully
+
+2019-04-08 18:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit")): Object: 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' is clicked on
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' is clicked on
+
+2019-04-08 18:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Summary/Edit Coupon/Page_/input_41500_b_coupon"), "Wisden"): Text 'Wisden' is set on object 'Object Repository/Summary/Edit Coupon/Page_/input_41500_b_coupon'
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Text 'Wisden' is set on object 'Object Repository/Summary/Edit Coupon/Page_/input_41500_b_coupon'
+
+2019-04-08 18:36:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Coupon/Page_/button_Apply"), 0): Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' successfully
+
+2019-04-08 18:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' successfully
+
+2019-04-08 18:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Coupon/Page_/button_Apply")): Object: 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' is clicked on
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' is clicked on
+
+2019-04-08 18:36:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout"), 0): Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-08 18:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-08 18:36:16 - [TEST_STEP][FAILED] - click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")): click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more
+
+
+2019-04-08 18:36:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546\\1554728776620.png]]
+
+2019-04-08 18:36:17 - [MESSAGE][FAILED] - click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-08 18:36:15 - [TEST_CASE][FAILED] - Test Cases/Summary/Edit Coupon: Test Cases/Summary/Edit Coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Edit Details" classname="Test Cases/Summary/Edit Details" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Summary/Edit Details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-08 18:36:17 - [TEST_CASE][FAILED] - Test Cases/Summary/Edit Details: Test Cases/Summary/Edit Details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more
+
+
+2019-04-08 18:36:17 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Summary/Edit Details/Page_/Edit Details button"), 0): scrollToElement(findTestObject("Summary/Edit Details/Page_/Edit Details button"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more
+
+
+2019-04-08 18:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 18:36:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-08 18:36:49 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190408_183546\\1554728808790.png]]
+
+2019-04-08 18:36:49 - [MESSAGE][FAILED] - scrollToElement(findTestObject("Summary/Edit Details/Page_/Edit Details button"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-08 18:36:17 - [TEST_CASE][FAILED] - Test Cases/Summary/Edit Details: Test Cases/Summary/Edit Details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Edit Details.run(Edit Details:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' located by 'By.xpath: //div[@id='msform']/fieldset/div/div/div/div/section/div[5]/div/a/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1554705602505.run(Script1554705602505.groovy:16)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-08 18:35:48 - [TEST_SUITE][FAILED] - Buynow Process for Disabled full: Test Cases/Summary/Edit Coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-08 18:35:48 - [TEST_SUITE][FAILED] - Buynow Process for Disabled full: Test Cases/Summary/Edit Coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Coupon.run(Edit Coupon:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554728746949.run(TempTestSuite1554728746949.groovy:35)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55355}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: c01113c107e26e321d8c479439501db1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554717839925.run(Script1554717839925.groovy:28)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Absolute-Address</name>
+   <tag></tag>
+   <elementGuidId>47619c15-6440-489d-a21e-201656cac6fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[6]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div/section/form/main/div[2]/div/section/div/fieldset/div/div/div/div/div/div/div[1]/div[1]/div/div/ul/div[6]/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -19,13 +19,15 @@ WebUI.comment('Verifying Premium Buynow URL Navigation')
 WebUI.openBrowser('')
 
 'Navigating to MCCC URL'
-WebUI.navigateToUrl('https://mccc-staging.jmangroup.com/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
 'Scroll upto Premium buynow button'
-WebUI.scrollToElement(findTestObject('Buynow for Premium/Buynow/Page_Middlesex Cricket Memberships/Premium buynow button'), 0)
+WebUI.scrollToElement(findTestObject('Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button'), 
+    0)
 
 'Click on Premium Buynow button'
-WebUI.click(findTestObject('Buynow for Premium/Buynow/Page_Middlesex Cricket Memberships/Premium buynow button'))
+WebUI.click(findTestObject('Buynow process/Buynow for premium/Page_Middlesex Cricket Memberships/Premium buynow button'))
 
 'Verifying Actual URL with expected URL'
-assert WebUI.getUrl() == 'https://mccc-staging.jmangroup.com/detail/1/PREMIER/0'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/detail/5/PREMIER/0'
+

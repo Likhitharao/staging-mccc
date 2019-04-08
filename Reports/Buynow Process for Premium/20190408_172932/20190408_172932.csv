@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Buynow Process for Premium,,,2019-04-08 17:29:36,2019-04-08 17:30:41,1m - 5.005s,FAILED
+,,,,,,
+Test Cases/Buynow Process/Buynow for Premium,,,2019-04-08 17:29:37,2019-04-08 17:30:32,55.801s,FAILED
+"comment(""Buynow for Premium"")",,,2019-04-08 17:29:37,2019-04-08 17:29:37,0.138s,PASSED
+"openBrowser("""")",,Opening browser,2019-04-08 17:29:37,2019-04-08 17:30:32,55.245s,FAILED
+,,,,,,
+Test Cases/User Details/Registration,,,2019-04-08 17:30:33,2019-04-08 17:30:33,0.873s,FAILED
+"comment(""Registration for MCCC"")",,,2019-04-08 17:30:33,2019-04-08 17:30:33,0.005s,PASSED
+"setText(findTestObject(""User Details/Registration/Page_Laravel/Reg_First name""), ""John"")",,Enter First name,2019-04-08 17:30:33,2019-04-08 17:30:33,0.239s,FAILED
+,,,,,,
+Test Cases/User Details/Billing address details,,,2019-04-08 17:30:33,2019-04-08 17:30:39,5.596s,FAILED
+"comment(""Billing Address Details"")",,,2019-04-08 17:30:34,2019-04-08 17:30:34,0.007s,PASSED
+delay(5),,,2019-04-08 17:30:34,2019-04-08 17:30:39,5.011s,PASSED
+"Totaltitle = getNumberOfTotalOption(findTestObject(""User Details/Billing address details/Page_/Absolute_title""))",,Total options in Title dropdown,2019-04-08 17:30:39,2019-04-08 17:30:39,0.093s,FAILED
+,,,,,,
+Test Cases/User Details/New Billing address,,,2019-04-08 17:30:39,2019-04-08 17:30:39,0.371s,FAILED
+"click(findTestObject(""User Details/New Billing address/Page_/input_Same as billing address_ca_deliveryoption""))",,,2019-04-08 17:30:39,2019-04-08 17:30:39,0.120s,FAILED
+,,,,,,
+Test Cases/Summary/Delivery and payment,,,2019-04-08 17:30:39,2019-04-08 17:30:40,0.585s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Billing/Page_/small_Next""), 0)",,,2019-04-08 17:30:40,2019-04-08 17:30:40,0.140s,FAILED
+,,,,,,
+Test Cases/Summary/Edit Billing address,,,2019-04-08 17:30:40,2019-04-08 17:30:40,0.299s,FAILED
+"click(findTestObject(""Summary/Edit Billing/Page_/i_Complete_fa fa-edit""))",,,2019-04-08 17:30:40,2019-04-08 17:30:40,0.109s,FAILED
+,,,,,,
+Test Cases/Summary/Delivery and payment,,,2019-04-08 17:30:40,2019-04-08 17:30:40,0.037s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Billing/Page_/small_Next""), 0)",,,2019-04-08 17:30:40,2019-04-08 17:30:40,0.023s,FAILED
+,,,,,,
+Test Cases/Summary/Edit New billing adress,,,2019-04-08 17:30:40,2019-04-08 17:30:41,0.347s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Billing/Page_/i_Mr  sam samfdgdfgdfgCaithness5643213Australiasgmailcom124545645_fa fa-edit""), 0)",,,2019-04-08 17:30:41,2019-04-08 17:30:41,0.080s,FAILED
+,,,,,,
+Test Cases/Summary/Delivery and payment,,,2019-04-08 17:30:41,2019-04-08 17:30:41,0.067s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Billing/Page_/small_Next""), 0)",,,2019-04-08 17:30:41,2019-04-08 17:30:41,0.058s,FAILED
+,,,,,,
+Test Cases/Summary/Edit Details,,,2019-04-08 17:30:41,2019-04-08 17:30:41,0.579s,FAILED
+"scrollToElement(findTestObject(""Summary/Edit Details/Page_/Edit Details button""), 0)",,,2019-04-08 17:30:41,2019-04-08 17:30:41,0.276s,FAILED
