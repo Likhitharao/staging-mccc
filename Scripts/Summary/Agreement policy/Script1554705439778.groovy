@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.scrollToElement(findTestObject('Summary/Agreement policy/Page_/Agreement'), 0)
+WebUI.comment('Accepting Agreement')
 
-WebUI.click(findTestObject('Summary/Agreement policy/Page_/Agreement'))
+'Scroll upto Agreement button'
+WebUI.scrollToElement(findTestObject('Summary/Edit Details/Page_/agreement'), 0)
+
+'Click on agreement button'
+WebUI.click(findTestObject('Summary/Edit Details/Page_/agreement'))
 

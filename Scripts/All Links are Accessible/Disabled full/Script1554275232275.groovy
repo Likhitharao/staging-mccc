@@ -13,15 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('Verifying whether all the links are working or not when we click on Disabled full buynow')
+
+'Opening Browser'
 WebUI.openBrowser('')
 
+'Disabled Full URL'
 WebUI.navigateToUrl('http://192.168.0.28:90/detail/10/DISABLED_FULL/9')
 
 WebUI.delay(5)
 
+'Verifying whether it is actual page or not '
 WebUI.verifyTextPresent('DISABLED FULL MEMBERSHIP', false)
 
+'Getting Total Number of links in that particular page'
 WebUI.getAllLinksOnCurrentPage(false, [])
 
+'Verifying all Links on that particular page or working or not'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 

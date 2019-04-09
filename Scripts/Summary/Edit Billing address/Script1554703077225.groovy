@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.comment('Edit Billing address')
 
 'Click on edit button'
-WebUI.click(findTestObject('Summary/Edit Billing/Page_/i_Complete_fa fa-edit'))
+WebUI.click(findTestObject('Summary/Edit Billing/Page_/Edit Billing button'))
 
 'Edit Street'
 WebUI.setText(findTestObject('User Details/Billing address details/Page_/Abs -street'), 'OMR')

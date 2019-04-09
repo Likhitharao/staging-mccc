@@ -13,15 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('Verifying Whether Links are Working or not when we click on Privacy policy page')
+
+'Opening Browser'
 WebUI.openBrowser('')
 
+'Navigate to MCCC url'
 WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
+'Click on privacy policy'
 WebUI.click(findTestObject('All links are Accessible/Privacy policy/Page_Middlesex Cricket Memberships/small_Privacy Policy'))
 
+'Verifying whether it is actual page or not '
 WebUI.switchToWindowIndex(1)
 
+'Getting Total Number of links in that particular page'
 WebUI.getAllLinksOnCurrentPage(false, [])
 
+'Verifying all Links on that particular page or working or not'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [], FailureHandling.STOP_ON_FAILURE)
 

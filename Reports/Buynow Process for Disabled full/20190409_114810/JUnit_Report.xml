@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buynow Process for Disabled full" time="46" tests="8" failures="1" errors="0">
+   <testsuite name="Buynow Process for Disabled full" tests="8" failures="1" errors="0" time="46" timestamp="2019-04-09 11:48:15" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/Buynow Process for Disabled full">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190409_114810"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190409_114810\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190409_114810\\1554790728766.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="72c99366fa1965bde1f26c6ea39d9e11"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buynow Process/Buynow for Disabled country" classname="Test Cases/Buynow Process/Buynow for Disabled country" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:15 - [TEST_CASE][PASSED] - Test Cases/Buynow Process/Buynow for Disabled country: Test Cases/Buynow Process/Buynow for Disabled country
+
+2019-04-09 11:48:16 - [TEST_STEP][PASSED] - comment("Buynow for Disabled Full "): Buynow for Disabled Full 
+
+2019-04-09 11:48:16 - [MESSAGE][INFO] - Buynow for Disabled Full 
+
+2019-04-09 11:48:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-09 11:48:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:48:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-09 11:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-09 11:48:21 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.0.28:90/list"): Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-09 11:48:23 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:90/list' successfully
+
+2019-04-09 11:48:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button"), 0): Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-09 11:48:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' successfully
+
+2019-04-09 11:48:23 - [TEST_STEP][PASSED] - click(findTestObject("URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button")): Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-09 11:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/URL Verifications/Buynow disabled country URL/Disabled country BUY NOW button' is clicked on
+
+2019-04-09 11:48:24 - [TEST_STEP][PASSED] - quantitytotal = getNumberOfTotalOption(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity")): 10 options of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' counted
+
+2019-04-09 11:48:24 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' counted
+
+2019-04-09 11:48:24 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-09 11:48:24 - [TEST_STEP][PASSED] - quantity = 1 + rad.nextInt(quantitytotal - 1): null
+
+2019-04-09 11:48:24 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity"), quantity): All options with index in [3] are selected on object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity'
+
+2019-04-09 11:48:25 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity'
+
+2019-04-09 11:48:25 - [TEST_STEP][PASSED] - Totalquantity1 = getAttribute(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/select quantity"), "value"): Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' is: '4'
+
+2019-04-09 11:48:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/select quantity' is: '4'
+
+2019-04-09 11:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button' is clicked on
+
+2019-04-09 11:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_PREMIER/Add to Basket button' is clicked on
+
+2019-04-09 11:48:25 - [TEST_STEP][PASSED] - Totalquantity2 = getAttribute(findTestObject("Buynow process/Buynow for premium/Page_/Quantity in basket"), "value"): Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_/Quantity in basket' is: '4'
+
+2019-04-09 11:48:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Buynow process/Buynow for premium/Page_/Quantity in basket' is: '4'
+
+2019-04-09 11:48:26 - [TEST_STEP][PASSED] - assert Totalquantity1 == Totalquantity2: null
+
+2019-04-09 11:48:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout"), 0): Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on
+
+2019-04-09 11:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/Registration" classname="Test Cases/User Details/Registration" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:26 - [TEST_CASE][PASSED] - Test Cases/User Details/Registration: Test Cases/User Details/Registration
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - comment("Registration for MCCC"): Registration for MCCC
+
+2019-04-09 11:48:27 - [MESSAGE][INFO] - Registration for MCCC
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_First name"), "John"): Text 'John' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_First name'
+
+2019-04-09 11:48:27 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_First name'
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Last name"), "Levis"): Text 'Levis' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Last name'
+
+2019-04-09 11:48:27 - [MESSAGE][PASSED] - Text 'Levis' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Last name'
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Date of birth"), "02-03-1996"): Text '02-03-1996' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Date of birth'
+
+2019-04-09 11:48:27 - [MESSAGE][PASSED] - Text '02-03-1996' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Date of birth'
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - Email = rad.nextInt(2000): null
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - Regemail = setText(findTestObject("User Details/Registration/Page_Laravel/Reg_Email"), "MCCC" + Email + "@gmail.com"): Text 'MCCC447@gmail.com' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Email'
+
+2019-04-09 11:48:27 - [MESSAGE][PASSED] - Text 'MCCC447@gmail.com' is set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Email'
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("User Details/Registration/Page_Laravel/Reg_Password"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Password'
+
+2019-04-09 11:48:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Password'
+
+2019-04-09 11:48:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("User Details/Registration/Page_Laravel/Reg_Confirm password"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Confirm password'
+
+2019-04-09 11:48:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User Details/Registration/Page_Laravel/Reg_Confirm password'
+
+2019-04-09 11:48:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Registration/Page_Laravel/button_REGISTER"), 0): Scroll to object 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' successfully
+
+2019-04-09 11:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' successfully
+
+2019-04-09 11:48:28 - [TEST_STEP][PASSED] - click(findTestObject("User Details/Registration/Page_Laravel/button_REGISTER")): Object: 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' is clicked on
+
+2019-04-09 11:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/Registration/Page_Laravel/button_REGISTER' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/Billing address details" classname="Test Cases/User Details/Billing address details" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:28 - [TEST_CASE][PASSED] - Test Cases/User Details/Billing address details: Test Cases/User Details/Billing address details
+
+2019-04-09 11:48:28 - [TEST_STEP][PASSED] - comment("Billing Address Details"): Billing Address Details
+
+2019-04-09 11:48:28 - [MESSAGE][INFO] - Billing Address Details
+
+2019-04-09 11:48:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:48:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:48:33 - [TEST_STEP][PASSED] - Totaltitle = getNumberOfTotalOption(findTestObject("User Details/Billing address details/Page_/Absolute_title")): 7 options of object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' counted
+
+2019-04-09 11:48:33 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' counted
+
+2019-04-09 11:48:33 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-09 11:48:33 - [TEST_STEP][PASSED] - count = 1 + rad.nextInt(Totaltitle - 1): null
+
+2019-04-09 11:48:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Billing address details/Page_/Absolute_title"), 0): Scroll to object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' successfully
+
+2019-04-09 11:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Billing address details/Page_/Absolute_title' successfully
+
+2019-04-09 11:48:33 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/Billing address details/Page_/Absolute_title"), count): All options with index in [1] are selected on object 'Object Repository/User Details/Billing address details/Page_/Absolute_title'
+
+2019-04-09 11:48:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/User Details/Billing address details/Page_/Absolute_title'
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - if (count == 5): null
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("User Details/Billing address details/Page_/Abs -street"), 0): Scroll to object 'Object Repository/User Details/Billing address details/Page_/Abs -street' successfully
+
+2019-04-09 11:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/User Details/Billing address details/Page_/Abs -street' successfully
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Abs -street"), "SN puram"): Text 'SN puram' is set on object 'Object Repository/User Details/Billing address details/Page_/Abs -street'
+
+2019-04-09 11:48:34 - [MESSAGE][PASSED] - Text 'SN puram' is set on object 'Object Repository/User Details/Billing address details/Page_/Abs -street'
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute-Address"), "3rd link Street"): Text '3rd link Street' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute-Address'
+
+2019-04-09 11:48:34 - [MESSAGE][PASSED] - Text '3rd link Street' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute-Address'
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_City"), "Chennai"): Text 'Chennai' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_City'
+
+2019-04-09 11:48:34 - [MESSAGE][PASSED] - Text 'Chennai' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_City'
+
+2019-04-09 11:48:34 - [TEST_STEP][PASSED] - Totalcounty = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Page_/County")): 123 options of object 'Object Repository/User Details/New Billing address/Page_/County' counted
+
+2019-04-09 11:48:35 - [MESSAGE][PASSED] - 123 options of object 'Object Repository/User Details/New Billing address/Page_/County' counted
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - rad1 = new java.util.Random(): null
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - count1 = 1 + rad1.nextInt(Totalcounty - 1): null
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Page_/County"), count1): All options with index in [21] are selected on object 'Object Repository/User Details/New Billing address/Page_/County'
+
+2019-04-09 11:48:35 - [MESSAGE][PASSED] - All options with index in [21] are selected on object 'Object Repository/User Details/New Billing address/Page_/County'
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_postalcode"), "562396"): Text '562396' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_postalcode'
+
+2019-04-09 11:48:35 - [MESSAGE][PASSED] - Text '562396' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_postalcode'
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - Totalcountry = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Page_/Country")): 250 options of object 'Object Repository/User Details/New Billing address/Page_/Country' counted
+
+2019-04-09 11:48:35 - [MESSAGE][PASSED] - 250 options of object 'Object Repository/User Details/New Billing address/Page_/Country' counted
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - rad2 = new java.util.Random(): null
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - count2 = 1 + rad2.nextInt(Totalcountry - 1): null
+
+2019-04-09 11:48:35 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Page_/Country"), count2): All options with index in [234] are selected on object 'Object Repository/User Details/New Billing address/Page_/Country'
+
+2019-04-09 11:48:37 - [MESSAGE][PASSED] - All options with index in [234] are selected on object 'Object Repository/User Details/New Billing address/Page_/Country'
+
+2019-04-09 11:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/Billing address details/Page_/Absolute_telephone"), "96632587412"): Text '96632587412' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_telephone'
+
+2019-04-09 11:48:37 - [MESSAGE][PASSED] - Text '96632587412' is set on object 'Object Repository/User Details/Billing address details/Page_/Absolute_telephone']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Details/New Billing address" classname="Test Cases/User Details/New Billing address" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:37 - [TEST_CASE][PASSED] - Test Cases/User Details/New Billing address: Test Cases/User Details/New Billing address
+
+2019-04-09 11:48:37 - [TEST_STEP][PASSED] - comment("Adding New Billing Address"): Adding New Billing Address
+
+2019-04-09 11:48:37 - [MESSAGE][INFO] - Adding New Billing Address
+
+2019-04-09 11:48:37 - [TEST_STEP][PASSED] - click(findTestObject("User Details/New Billing address/Page_/Same as billing address_button")): Object: 'Object Repository/User Details/New Billing address/Page_/Same as billing address_button' is clicked on
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/New Billing address/Page_/Same as billing address_button' is clicked on
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - Totaltitle = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute_Title")): 7 options of object 'Object Repository/User Details/New Billing address/Absolute_Title' counted
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/User Details/New Billing address/Absolute_Title' counted
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - count = 1 + rad.nextInt(Totaltitle - 1): null
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute_Title"), count, STOP_ON_FAILURE): All options with index in [4] are selected on object 'Object Repository/User Details/New Billing address/Absolute_Title'
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/User Details/New Billing address/Absolute_Title'
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - if (count == 5): null
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/new_First name"), "Williams"): Text 'Williams' is set on object 'Object Repository/User Details/New Billing address/Page_/new_First name'
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - Text 'Williams' is set on object 'Object Repository/User Details/New Billing address/Page_/new_First name'
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/New_Last name"), "denim"): Text 'denim' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Last name'
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - Text 'denim' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Last name'
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/New_Street"), "Link street"): Text 'Link street' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Street'
+
+2019-04-09 11:48:38 - [MESSAGE][PASSED] - Text 'Link street' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Street'
+
+2019-04-09 11:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/New_Address"), "56/7"): Text '56/7' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Address'
+
+2019-04-09 11:48:39 - [MESSAGE][PASSED] - Text '56/7' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Address'
+
+2019-04-09 11:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/New_City"), "chennai"): Text 'chennai' is set on object 'Object Repository/User Details/New Billing address/Page_/New_City'
+
+2019-04-09 11:48:39 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/User Details/New Billing address/Page_/New_City'
+
+2019-04-09 11:48:39 - [TEST_STEP][PASSED] - Totalcounty = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute-county")): 123 options of object 'Object Repository/User Details/New Billing address/Absolute-county' counted
+
+2019-04-09 11:48:39 - [MESSAGE][PASSED] - 123 options of object 'Object Repository/User Details/New Billing address/Absolute-county' counted
+
+2019-04-09 11:48:39 - [TEST_STEP][PASSED] - rad1 = new java.util.Random(): null
+
+2019-04-09 11:48:39 - [TEST_STEP][PASSED] - count1 = 1 + rad1.nextInt(Totalcounty - 1): null
+
+2019-04-09 11:48:39 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute-county"), count1): All options with index in [99] are selected on object 'Object Repository/User Details/New Billing address/Absolute-county'
+
+2019-04-09 11:48:40 - [MESSAGE][PASSED] - All options with index in [99] are selected on object 'Object Repository/User Details/New Billing address/Absolute-county'
+
+2019-04-09 11:48:40 - [TEST_STEP][PASSED] - setText(findTestObject("User Details/New Billing address/Page_/New_Postal code"), "562396"): Text '562396' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Postal code'
+
+2019-04-09 11:48:40 - [MESSAGE][PASSED] - Text '562396' is set on object 'Object Repository/User Details/New Billing address/Page_/New_Postal code'
+
+2019-04-09 11:48:40 - [TEST_STEP][PASSED] - Totalcountry = getNumberOfTotalOption(findTestObject("User Details/New Billing address/Absolute_country")): 250 options of object 'Object Repository/User Details/New Billing address/Absolute_country' counted
+
+2019-04-09 11:48:40 - [MESSAGE][PASSED] - 250 options of object 'Object Repository/User Details/New Billing address/Absolute_country' counted
+
+2019-04-09 11:48:40 - [TEST_STEP][PASSED] - rad2 = new java.util.Random(): null
+
+2019-04-09 11:48:40 - [TEST_STEP][PASSED] - count2 = 1 + rad2.nextInt(Totalcountry - 1): null
+
+2019-04-09 11:48:40 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("User Details/New Billing address/Absolute_country"), count2): All options with index in [159] are selected on object 'Object Repository/User Details/New Billing address/Absolute_country'
+
+2019-04-09 11:48:42 - [MESSAGE][PASSED] - All options with index in [159] are selected on object 'Object Repository/User Details/New Billing address/Absolute_country'
+
+2019-04-09 11:48:42 - [TEST_STEP][PASSED] - click(findTestObject("User Details/New Billing address/Page_/button_Next")): Object: 'Object Repository/User Details/New Billing address/Page_/button_Next' is clicked on
+
+2019-04-09 11:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User Details/New Billing address/Page_/button_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Delivery and payment" classname="Test Cases/Summary/Delivery and payment" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:42 - [TEST_CASE][PASSED] - Test Cases/Summary/Delivery and payment: Test Cases/Summary/Delivery and payment
+
+2019-04-09 11:48:42 - [TEST_STEP][PASSED] - comment("For Delivery and payment page next button"): For Delivery and payment page next button
+
+2019-04-09 11:48:42 - [MESSAGE][INFO] - For Delivery and payment page next button
+
+2019-04-09 11:48:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Billing/Page_/small_Next"), 0): Scroll to object 'Object Repository/Summary/Edit Billing/Page_/small_Next' successfully
+
+2019-04-09 11:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Billing/Page_/small_Next' successfully
+
+2019-04-09 11:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Billing/Page_/small_Next")): Object: 'Object Repository/Summary/Edit Billing/Page_/small_Next' is clicked on
+
+2019-04-09 11:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Billing/Page_/small_Next' is clicked on
+
+2019-04-09 11:48:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:48:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:48:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Delivery and payment/Page_/Payment_nextbutton"), 0): Scroll to object 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' successfully
+
+2019-04-09 11:48:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' successfully
+
+2019-04-09 11:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Delivery and payment/Page_/Payment_nextbutton")): Object: 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' is clicked on
+
+2019-04-09 11:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Delivery and payment/Page_/Payment_nextbutton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Checking Address Details" classname="Test Cases/Summary/Checking Address Details" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:47 - [TEST_CASE][PASSED] - Test Cases/Summary/Checking Address Details: Test Cases/Summary/Checking Address Details
+
+2019-04-09 11:48:48 - [TEST_STEP][PASSED] - verifyTextPresent("3rd link Street", false): Text '3rd link Street' is present on page 
+
+2019-04-09 11:48:48 - [MESSAGE][PASSED] - Text '3rd link Street' is present on page 
+
+2019-04-09 11:48:48 - [TEST_STEP][PASSED] - verifyTextPresent("Link street", false): Text 'Link street' is present on page 
+
+2019-04-09 11:48:48 - [MESSAGE][PASSED] - Text 'Link street' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Checking Address Details after edit" classname="Test Cases/Summary/Checking Address Details after edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Summary/Checking Address Details after edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-04-09 11:48:48 - [TEST_CASE][FAILED] - Test Cases/Summary/Checking Address Details after edit: Test Cases/Summary/Checking Address Details after edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-04-09 11:48:48 - [TEST_STEP][PASSED] - verifyTextPresent("Levis", false): Text 'Levis' is present on page 
+
+2019-04-09 11:48:48 - [MESSAGE][PASSED] - Text 'Levis' is present on page 
+
+2019-04-09 11:48:48 - [TEST_STEP][FAILED] - verifyTextPresent("Delhi", false): verifyTextPresent("Delhi", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-04-09 11:48:48 - [MESSAGE][FAILED] - Text 'Delhi' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+)
+
+2019-04-09 11:48:49 - [MESSAGE][FAILED] - Unable to verify text 'Delhi' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\staging-mccc\\Reports\\Buynow Process for Disabled full\\20190409_114810\\1554790728766.png]]
+
+2019-04-09 11:48:49 - [MESSAGE][FAILED] - verifyTextPresent("Delhi", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-04-09 11:48:48 - [TEST_CASE][FAILED] - Test Cases/Summary/Checking Address Details after edit: Test Cases/Summary/Checking Address Details after edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Edit Coupon" classname="Test Cases/Summary/Edit Coupon" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:49 - [TEST_CASE][PASSED] - Test Cases/Summary/Edit Coupon: Test Cases/Summary/Edit Coupon
+
+2019-04-09 11:48:49 - [TEST_STEP][PASSED] - comment("Edit coupon"): Edit coupon
+
+2019-04-09 11:48:49 - [MESSAGE][INFO] - Edit coupon
+
+2019-04-09 11:48:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit"), 0): Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' successfully
+
+2019-04-09 11:48:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' successfully
+
+2019-04-09 11:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit")): Object: 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' is clicked on
+
+2019-04-09 11:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Coupon/Page_/i_Payment using credit or debit card_fa fa-edit' is clicked on
+
+2019-04-09 11:48:49 - [TEST_STEP][PASSED] - setText(findTestObject("Summary/Edit Coupon/Page_/input_41500_b_coupon"), "Wisden"): Text 'Wisden' is set on object 'Object Repository/Summary/Edit Coupon/Page_/input_41500_b_coupon'
+
+2019-04-09 11:48:50 - [MESSAGE][PASSED] - Text 'Wisden' is set on object 'Object Repository/Summary/Edit Coupon/Page_/input_41500_b_coupon'
+
+2019-04-09 11:48:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Coupon/Page_/button_Apply"), 0): Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' successfully
+
+2019-04-09 11:48:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' successfully
+
+2019-04-09 11:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Coupon/Page_/button_Apply")): Object: 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' is clicked on
+
+2019-04-09 11:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Coupon/Page_/button_Apply' is clicked on
+
+2019-04-09 11:48:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:48:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout"), 0): Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Buynow process/Buynow for premium/Page_/Basket Checkout")): Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on
+
+2019-04-09 11:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Buynow process/Buynow for premium/Page_/Basket Checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/Edit Details" classname="Test Cases/Summary/Edit Details" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:48:55 - [TEST_CASE][PASSED] - Test Cases/Summary/Edit Details: Test Cases/Summary/Edit Details
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - comment("Edit Basket Details"): Edit Basket Details
+
+2019-04-09 11:48:55 - [MESSAGE][INFO] - Edit Basket Details
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Details/Page_/Edit Details button"), 0): Scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button' successfully
+
+2019-04-09 11:48:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Details/Page_/Edit Details button' successfully
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Details/Page_/Edit Details button")): Object: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' is clicked on
+
+2019-04-09 11:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Details/Page_/Edit Details button' is clicked on
+
+2019-04-09 11:48:55 - [TEST_STEP][PASSED] - Totalquantity = getNumberOfTotalOption(findTestObject("Summary/Edit Details/Page_/select Quantity in Basket")): 10 options of object 'Object Repository/Summary/Edit Details/Page_/select Quantity in Basket' counted
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/Summary/Edit Details/Page_/select Quantity in Basket' counted
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - count = 1 + rad.nextInt(Totalquantity - 1): null
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Summary/Edit Details/Page_/select Quantity in Basket"), count): All options with index in [7] are selected on object 'Object Repository/Summary/Edit Details/Page_/select Quantity in Basket'
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Summary/Edit Details/Page_/select Quantity in Basket'
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Details/Page_/Basket Checkout"), 0): Scroll to object 'Object Repository/Summary/Edit Details/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Details/Page_/Basket Checkout' successfully
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Details/Page_/Basket Checkout")): Object: 'Object Repository/Summary/Edit Details/Page_/Basket Checkout' is clicked on
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Details/Page_/Basket Checkout' is clicked on
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Details/Page_/agreement"), 10): Scroll to object 'Object Repository/Summary/Edit Details/Page_/agreement' successfully
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Details/Page_/agreement' successfully
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Details/Page_/agreement")): Object: 'Object Repository/Summary/Edit Details/Page_/agreement' is clicked on
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Details/Page_/agreement' is clicked on
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Summary/Edit Details/over/Page_/button_Buy now"), 20): Scroll to object 'Object Repository/Summary/Edit Details/over/Page_/button_Buy now' successfully
+
+2019-04-09 11:48:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Summary/Edit Details/over/Page_/button_Buy now' successfully
+
+2019-04-09 11:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Summary/Edit Details/over/Page_/button_Buy now")): Object: 'Object Repository/Summary/Edit Details/over/Page_/button_Buy now' is clicked on
+
+2019-04-09 11:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary/Edit Details/over/Page_/button_Buy now' is clicked on
+
+2019-04-09 11:49:00 - [TEST_STEP][PASSED] - assert getUrl() == "http://192.168.0.28:90/checkout/process": Current window's url is: 'http://192.168.0.28:90/checkout/process'
+
+2019-04-09 11:49:00 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:90/checkout/process']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-09 11:48:15 - [TEST_SUITE][FAILED] - Buynow Process for Disabled full: Test Cases/Summary/Checking Address Details after edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-04-09 11:48:15 - [TEST_SUITE][FAILED] - Buynow Process for Disabled full: Test Cases/Summary/Checking Address Details after edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Delhi' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at Checking Address Details after edit.run(Checking Address Details after edit:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554790690326.run(TempTestSuite1554790690326.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Delhi' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

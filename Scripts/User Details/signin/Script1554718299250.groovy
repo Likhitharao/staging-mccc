@@ -13,17 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Buynow Process/Buynow for Premium'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Signin ')
 
+'Scroll upto Signin button'
 WebUI.scrollToElement(findTestObject('User Details/Signin/Page_Laravel/a_SIGN IN INSTEAD'), 0)
 
+'Click on signin '
 WebUI.click(findTestObject('User Details/Signin/Page_Laravel/a_SIGN IN INSTEAD'))
 
-WebUI.setText(findTestObject('User Details/Signin/Page_Laravel/input_Email_email'), Regemail)
+'Enter Email'
+WebUI.setText(findTestObject('User Details/Signin/Page_Laravel/input_Email_email'), 's@gmail.com')
 
+'Click next'
 WebUI.click(findTestObject('User Details/Signin/Page_Laravel/button_NEXT'))
 
+'Enter password'
 WebUI.setEncryptedText(findTestObject('User Details/Signin/Page_Laravel/input_Password_password'), 'nbPRAawFRnE=')
 
+'Click on login'
 WebUI.click(findTestObject('User Details/Signin/Page_Laravel/button_LOGIN'))
+
+'Verifying Signin is successfull or not'
+assert WebUI.getUrl() == 'http://192.168.0.28:90/checkout'
 

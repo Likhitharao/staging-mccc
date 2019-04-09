@@ -13,11 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('Verifying all links are accessible or not in Membership page/home page')
+
+'Opening browser'
 WebUI.openBrowser('')
 
+'Navigate to MCCC URL'
 WebUI.navigateToUrl('http://192.168.0.28:90/list')
 
+'Getting Total Number of links in that particular page'
 WebUI.getAllLinksOnCurrentPage(false, [])
 
+'Verifying all Links on that particular page or working or not'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [], FailureHandling.STOP_ON_FAILURE)
 

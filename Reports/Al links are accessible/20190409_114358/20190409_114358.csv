@@ -1,0 +1,127 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Al links are accessible,Chrome 73.0.3683.86,,2019-04-09 11:44:00,2019-04-09 11:46:50,2m - 49.344s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Membership page links,Chrome 73.0.3683.86,,2019-04-09 11:44:00,2019-04-09 11:44:10,9.593s,PASSED
+"comment(""Verifying all links are accessible or not in Membership page/home page"")",Chrome 73.0.3683.86,,2019-04-09 11:44:01,2019-04-09 11:44:01,0.156s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-09 11:44:01,2019-04-09 11:44:04,3.268s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-09 11:44:04,2019-04-09 11:44:06,1.824s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:44:06,2019-04-09 11:44:07,0.573s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [], STOP_ON_FAILURE)",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:44:07,2019-04-09 11:44:10,3.416s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Cart,Chrome 73.0.3683.86,,2019-04-09 11:44:10,2019-04-09 11:44:21,11.262s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Cart Icon"")",Chrome 73.0.3683.86,,2019-04-09 11:44:10,2019-04-09 11:44:10,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening the browser,2019-04-09 11:44:10,2019-04-09 11:44:15,4.269s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,MCCC URL,2019-04-09 11:44:15,2019-04-09 11:44:19,3.991s,PASSED
+"click(findTestObject(""All links are Accessible/Cart""))",Chrome 73.0.3683.86,Click on Cart Icon,2019-04-09 11:44:19,2019-04-09 11:44:20,0.998s,PASSED
+"verifyTextPresent(""Basket"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:44:20,2019-04-09 11:44:20,0.087s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:44:20,2019-04-09 11:44:20,0.568s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:44:20,2019-04-09 11:44:21,1.037s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Country,Chrome 73.0.3683.86,,2019-04-09 11:44:21,2019-04-09 11:44:36,14.402s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Country Buynow"")",Chrome 73.0.3683.86,,2019-04-09 11:44:22,2019-04-09 11:44:22,0.005s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening the browser,2019-04-09 11:44:22,2019-04-09 11:44:25,3.804s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/7/COUNTRY/2"")",Chrome 73.0.3683.86,MCCC Country page URL,2019-04-09 11:44:25,2019-04-09 11:44:29,3.329s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:44:29,2019-04-09 11:44:34,5.015s,PASSED
+"verifyTextPresent(""COUNTRY MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:44:34,2019-04-09 11:44:34,0.130s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:44:34,2019-04-09 11:44:34,0.532s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:44:34,2019-04-09 11:44:36,1.375s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Disabled country,Chrome 73.0.3683.86,,2019-04-09 11:44:36,2019-04-09 11:44:50,13.911s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Disabled country buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:44:36,2019-04-09 11:44:36,0.006s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-09 11:44:36,2019-04-09 11:44:39,3.497s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/11/DISABLED_COUNTRY/10"")",Chrome 73.0.3683.86,MCCC Disabled country page URL,2019-04-09 11:44:39,2019-04-09 11:44:43,3.369s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:44:43,2019-04-09 11:44:48,5.003s,PASSED
+"verifyTextPresent(""DISABLED COUNTRY MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:44:48,2019-04-09 11:44:48,0.126s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:44:48,2019-04-09 11:44:48,0.536s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:44:48,2019-04-09 11:44:50,1.193s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Disabled full,Chrome 73.0.3683.86,,2019-04-09 11:44:50,2019-04-09 11:45:02,12.627s,PASSED
+"comment(""Verifying whether all the links are working or not when we click on Disabled full buynow"")",Chrome 73.0.3683.86,,2019-04-09 11:44:50,2019-04-09 11:44:50,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:44:50,2019-04-09 11:44:53,3.308s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/10/DISABLED_FULL/9"")",Chrome 73.0.3683.86,Disabled Full URL,2019-04-09 11:44:53,2019-04-09 11:44:55,2.378s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:44:55,2019-04-09 11:45:00,5.004s,PASSED
+"verifyTextPresent(""DISABLED FULL MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:45:00,2019-04-09 11:45:01,0.105s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:45:01,2019-04-09 11:45:01,0.490s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:45:01,2019-04-09 11:45:02,1.190s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Full,Chrome 73.0.3683.86,,2019-04-09 11:45:02,2019-04-09 11:45:11,8.854s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Full buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:45:02,2019-04-09 11:45:02,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:45:02,2019-04-09 11:45:06,3.090s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/6/FULL/1"")",Chrome 73.0.3683.86,Navigate to MCCC url,2019-04-09 11:45:06,2019-04-09 11:45:09,3.402s,PASSED
+"verifyTextPresent(""FULL MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:45:09,2019-04-09 11:45:09,0.154s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:45:09,2019-04-09 11:45:10,0.540s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:45:10,2019-04-09 11:45:11,1.496s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Junior,Chrome 73.0.3683.86,,2019-04-09 11:45:11,2019-04-09 11:45:24,12.988s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Junior buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:45:11,2019-04-09 11:45:11,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-09 11:45:11,2019-04-09 11:45:14,2.965s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/13/JUNIOR/12"")",Chrome 73.0.3683.86,Junior URL,2019-04-09 11:45:14,2019-04-09 11:45:17,3.013s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:45:17,2019-04-09 11:45:22,5.003s,PASSED
+"verifyTextPresent(""JUNIOR MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:45:22,2019-04-09 11:45:22,0.130s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:45:22,2019-04-09 11:45:23,0.508s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:45:23,2019-04-09 11:45:24,1.148s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Teen,Chrome 73.0.3683.86,,2019-04-09 11:45:24,2019-04-09 11:45:38,13.507s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Teen buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:45:24,2019-04-09 11:45:24,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-09 11:45:24,2019-04-09 11:45:29,4.245s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/12/TEEN/11"")",Chrome 73.0.3683.86,Navigate to Teen URL,2019-04-09 11:45:29,2019-04-09 11:45:31,2.272s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:45:31,2019-04-09 11:45:36,5.003s,PASSED
+"verifyTextPresent(""TEEN MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:45:36,2019-04-09 11:45:36,0.100s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:45:36,2019-04-09 11:45:36,0.498s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:45:36,2019-04-09 11:45:38,1.181s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Premier,Chrome 73.0.3683.86,,2019-04-09 11:45:38,2019-04-09 11:45:51,13.613s,PASSED
+"openBrowser(""Verifying  all links are working or not in Premier page"")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:45:38,2019-04-09 11:45:43,5.269s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/5/PREMIER/0"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-09 11:45:43,2019-04-09 11:45:44,1.302s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:45:44,2019-04-09 11:45:49,5.003s,PASSED
+"verifyTextPresent(""PREMIER MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:45:49,2019-04-09 11:45:50,0.124s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:45:50,2019-04-09 11:45:50,0.488s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:45:50,2019-04-09 11:45:51,1.174s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/premium plus,Chrome 73.0.3683.86,,2019-04-09 11:45:51,2019-04-09 11:46:06,14.295s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Premium plus buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:45:51,2019-04-09 11:45:51,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening browser,2019-04-09 11:45:51,2019-04-09 11:45:55,3.486s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/9/PREMIER_PLUS/8"")",Chrome 73.0.3683.86,Prmium plus URL,2019-04-09 11:45:55,2019-04-09 11:45:59,3.875s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:45:59,2019-04-09 11:46:04,5.003s,PASSED
+"verifyTextPresent(""PREMIER PLUS MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:46:04,2019-04-09 11:46:04,0.117s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:46:04,2019-04-09 11:46:04,0.490s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:46:04,2019-04-09 11:46:06,1.091s,PASSED
+,,,,,,
+Test Cases/All Links are Accessible/Young adult,Chrome 73.0.3683.86,,2019-04-09 11:46:06,2019-04-09 11:46:22,16.508s,PASSED
+"comment(""Verifying Whether Links are Working or not when we click on Young adult buynow page"")",Chrome 73.0.3683.86,,2019-04-09 11:46:06,2019-04-09 11:46:06,0.003s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:46:06,2019-04-09 11:46:10,4.450s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3"")",Chrome 73.0.3683.86,Navigate to Young adult Buynow URL,2019-04-09 11:46:10,2019-04-09 11:46:15,5.001s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 11:46:15,2019-04-09 11:46:20,5.005s,PASSED
+"verifyTextPresent(""YOUNG ADULT / STUDENT MEMBERSHIP"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:46:20,2019-04-09 11:46:20,0.120s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:46:20,2019-04-09 11:46:21,0.497s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:46:21,2019-04-09 11:46:22,1.285s,PASSED
+,,,,,,
+"Test Cases/All Links are Accessible/Delivery,Returns and cancellations",Chrome 73.0.3683.86,,2019-04-09 11:46:22,2019-04-09 11:46:32,9.711s,FAILED
+"comment(""Verifying Whether Links are Working or not when we click on Delivery,Returns and cancellations link page"")",Chrome 73.0.3683.86,,2019-04-09 11:46:22,2019-04-09 11:46:22,0.004s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,"Open browser
+",2019-04-09 11:46:22,2019-04-09 11:46:25,2.907s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,MCCC URL,2019-04-09 11:46:25,2019-04-09 11:46:29,3.777s,PASSED
+"click(findTestObject(""All links are Accessible/Delivery,Returns and cancellations/Page_Middlesex Cricket Memberships/small_Delivery Returns and Cancellations""))",Chrome 73.0.3683.86,"Click on Delivery,Returns and cancellations link",2019-04-09 11:46:29,2019-04-09 11:46:29,0.259s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,As above link is Navigating to another window we are using Switch to window index,2019-04-09 11:46:29,2019-04-09 11:46:29,0.065s,PASSED
+"verifyTextPresent(""DELIVERY, RETURNS & CANCELLATIONS"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:46:29,2019-04-09 11:46:30,1.117s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:46:30,2019-04-09 11:46:31,0.260s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:46:31,2019-04-09 11:46:32,1.000s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Terms and Conditions links,Chrome 73.0.3683.86,,2019-04-09 11:46:32,2019-04-09 11:46:41,8.730s,FAILED
+"comment(""Verifying Whether Links are Working or not when we click on terms and conditions page"")",Chrome 73.0.3683.86,,2019-04-09 11:46:32,2019-04-09 11:46:32,0.001s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:46:32,2019-04-09 11:46:36,3.552s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC URL,2019-04-09 11:46:36,2019-04-09 11:46:38,2.223s,PASSED
+"click(findTestObject(""All links are Accessible/Terms and conditions/Page_Middlesex Cricket Memberships/small_Terms  Conditions""))",Chrome 73.0.3683.86,Click on Terms and condition link,2019-04-09 11:46:38,2019-04-09 11:46:38,0.141s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,,2019-04-09 11:46:38,2019-04-09 11:46:38,0.016s,PASSED
+"verifyTextPresent(""TERMS AND CONDITIONS"", false)",Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:46:38,2019-04-09 11:46:39,1.087s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:46:39,2019-04-09 11:46:39,0.288s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:46:39,2019-04-09 11:46:41,1.224s,FAILED
+,,,,,,
+Test Cases/All Links are Accessible/Privacy policy,Chrome 73.0.3683.86,,2019-04-09 11:46:41,2019-04-09 11:46:49,8.300s,FAILED
+"comment(""Verifying Whether Links are Working or not when we click on Privacy policy page"")",Chrome 73.0.3683.86,,2019-04-09 11:46:41,2019-04-09 11:46:41,0.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Opening Browser,2019-04-09 11:46:41,2019-04-09 11:46:44,3.505s,PASSED
+"navigateToUrl(""http://192.168.0.28:90/list"")",Chrome 73.0.3683.86,Navigate to MCCC url,2019-04-09 11:46:44,2019-04-09 11:46:47,2.379s,PASSED
+"click(findTestObject(""All links are Accessible/Privacy policy/Page_Middlesex Cricket Memberships/small_Privacy Policy""))",Chrome 73.0.3683.86,Click on privacy policy,2019-04-09 11:46:47,2019-04-09 11:46:47,0.126s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,Verifying whether it is actual page or not ,2019-04-09 11:46:47,2019-04-09 11:46:47,0.015s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 73.0.3683.86,Getting Total Number of links in that particular page,2019-04-09 11:46:47,2019-04-09 11:46:48,1.409s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [], STOP_ON_FAILURE)",Chrome 73.0.3683.86,Verifying all Links on that particular page or working or not,2019-04-09 11:46:48,2019-04-09 11:46:49,0.652s,FAILED

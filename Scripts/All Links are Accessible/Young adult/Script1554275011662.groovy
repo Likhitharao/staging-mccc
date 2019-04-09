@@ -13,15 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('Verifying Whether Links are Working or not when we click on Young adult buynow page')
+
+'Opening Browser'
 WebUI.openBrowser('')
 
+'Navigate to Young adult Buynow URL'
 WebUI.navigateToUrl('http://192.168.0.28:90/detail/8/YOUNG_ADULT_STUDENT/3')
 
 WebUI.delay(5)
 
+'Verifying whether it is actual page or not '
 WebUI.verifyTextPresent('YOUNG ADULT / STUDENT MEMBERSHIP', false)
 
+'Getting Total Number of links in that particular page'
 WebUI.getAllLinksOnCurrentPage(false, [])
 
+'Verifying all Links on that particular page or working or not'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 

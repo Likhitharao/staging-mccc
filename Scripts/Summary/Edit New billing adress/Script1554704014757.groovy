@@ -13,20 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('')
+WebUI.comment('Edit New Billing Address')
 
-WebUI.scrollToElement(findTestObject('Summary/Edit Billing/Page_/i_Mr  sam samfdgdfgdfgCaithness5643213Australiasgmailcom124545645_fa fa-edit'), 
-    0)
+'Scroll upto edit button'
+WebUI.scrollToElement(findTestObject('Summary/Edit Billing/Page_/Edit new billing button'), 0)
 
-WebUI.click(findTestObject('Summary/Edit Billing/Page_/i_Mr  sam samfdgdfgdfgCaithness5643213Australiasgmailcom124545645_fa fa-edit'))
+'Click on edit button'
+WebUI.click(findTestObject('Summary/Edit Billing/Page_/Edit new billing button'))
 
-WebUI.setText(findTestObject('User Details/New Billing address/Page_/input_First name_ca_deliveryorderbaseaddressfirstname'), 
-    'Levis')
+'Edit first name'
+WebUI.setText(findTestObject('User Details/New Billing address/Page_/new_First name'), 'Levis')
 
-WebUI.setText(findTestObject('User Details/New Billing address/Page_/input_Last name_ca_deliveryorderbaseaddresslastname'), 
-    'hary')
+'Edit last name'
+WebUI.setText(findTestObject('User Details/New Billing address/Page_/New_Last name'), 'hary')
 
+'Scroll upto button next\r\n'
 WebUI.scrollToElement(findTestObject('User Details/New Billing address/Page_/button_Next'), 0)
 
+'Click on button next'
 WebUI.click(findTestObject('User Details/New Billing address/Page_/button_Next'))
 

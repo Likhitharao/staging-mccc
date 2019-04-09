@@ -47,6 +47,12 @@
       <testCaseId>Test Cases/Summary/Delivery and payment</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>cac60e1e-b657-4b5d-ae83-59267a386bd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Summary/Checking Address Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>78673aed-cf4e-4dad-b1fd-602e966f7a31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,6 +75,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Summary/Delivery and payment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c06a28f0-9638-43f6-9639-a6a7ea3bca80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Summary/Checking Address Details after edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98fd099c-39bd-4d11-9119-3a098d741630</guid>

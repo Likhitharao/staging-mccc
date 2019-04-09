@@ -47,6 +47,12 @@
       <testCaseId>Test Cases/Summary/Delivery and payment</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>9faa53c0-f0a9-4575-a18b-4c4e64a4c3e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Summary/Checking Address Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fa0c1164-fba3-4095-845c-6a5a491b1546</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

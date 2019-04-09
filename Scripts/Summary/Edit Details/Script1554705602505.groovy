@@ -50,3 +50,5 @@ WebUI.scrollToElement(findTestObject('Summary/Edit Details/over/Page_/button_Buy
 'Click on buynow button in summary page'
 WebUI.click(findTestObject('Summary/Edit Details/over/Page_/button_Buy now'))
 
+assert WebUI.getUrl() =='http://192.168.0.28:90/checkout/process'
+

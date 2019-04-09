@@ -15,6 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Verifying Whether Links are Working or not when we click on Disabled country buynow page')
 
+'Opening browser'
 WebUI.openBrowser('')
 
 'MCCC Disabled country page URL'

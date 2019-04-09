@@ -14,7 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.comment('Registration for MCCC')
 
@@ -34,7 +33,7 @@ int Email = rad.nextInt(2000)
 
 	
 'Random Email'
- public String Regemail = WebUI.setText(findTestObject('User Details/Registration/Page_Laravel/Reg_Email'), ('MCCC' + Email) + 
+ String Regemail = WebUI.setText(findTestObject('User Details/Registration/Page_Laravel/Reg_Email'), ('MCCC' + Email) + 
     '@gmail.com')
 
 'Set Password'

@@ -13,17 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'Opening Browser'
+WebUI.openBrowser('Verifying  all links are working or not in Premier page')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/list')
+'Navigate to MCCC URL'
+WebUI.navigateToUrl('http://192.168.0.28:90/detail/5/PREMIER/0')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Summary/spy/Page_Middlesex Cricket Memberships/a_BUY NOW'))
-
+'Verifying whether it is actual page or not '
 WebUI.verifyTextPresent('PREMIER MEMBERSHIP', false)
 
+'Getting Total Number of links in that particular page'
 WebUI.getAllLinksOnCurrentPage(false, [])
 
+'Verifying all Links on that particular page or working or not'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
